@@ -1,0 +1,90 @@
+{	
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["niri/workspaces"],
+  "modules-center": [
+        "clock",
+        "pulseaudio",
+        "network",
+        "battery",
+        ],
+  "modules-right":[
+	"cpu", "memory"],
+												
+ "niri/workspaces": {
+    "format": "{icon}",
+
+    "format-icons": {
+        "1": "c",
+        "2": "c",
+        "3": "c",
+        "4": "c",
+        "5": "c",
+        "6": "c",
+        "7": "c",
+        "8": "c",
+        "9": "c",
+        "10": "c"
+    }
+},
+
+        	"clock": {
+		"format": "{:%d %b   |   %H:%M }",
+		"tooltip": "true",
+        	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        	"format-alt": "   {:%d/%m}"
+	},
+
+	"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format":"{icon}   {capacity}%", "format-charging": "{capacity}% 󰂄", 
+        "format-plugged": "{capacity}% ", "format-alt": "{icon} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+	},
+
+	"memory": {
+		"interval": 5,
+		"format": "  {}%",
+		"on-click": "process_viewer",
+		"on-click-right": "foot btop"
+	},
+
+  	"cpu": {
+		"interval": 5,
+		"format": "  {usage:2}%",
+		"on-click": "process_viewer",
+		"on-click-right": "foot btop"
+	},
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [" ", " " ]
+    },
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol"
+  },
+
+"network": {
+        	"format-wifi": "{essid}  󰤨",
+        	"format-ethernet": "󰈀 ",
+        	"format-linked": " {ifname} (No IP)",
+        	"format-disconnected": "󰤭",
+        	"format-alt": "{ifname}: {ipaddr}/{cidr}",
+          "tooltip-format": "{essid}",
+          "on-click-right": "nm-connection-editor"
+	},
+}

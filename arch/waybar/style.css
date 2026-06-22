@@ -1,0 +1,141 @@
+@import "meow.css";
+* {
+  border: none;
+  border-radius: 0px;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  min-height: 40px;
+}
+
+window#waybar {
+  font-family: "Rubik", "Fira Code", "JetBrainsMono Nerd Font", "Font Awesome 6 Free", "Symbols Nerd Font Mono", sans-serif;
+  font-weight: 400;
+  background: transparent;
+}
+
+
+#window {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+tooltip {
+  background: @bg1;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @white;
+  padding: 6px 8px;
+}
+
+
+.modules-left{
+  font-family: "ButterflyHeaven", "sans-serif", "Rubik";
+  background: @bg2;
+  border-radius: 50px;
+}
+
+.modules-right{
+  background: @bg2;
+  border-radius: 50px;
+  padding: 0 10 0 10;
+}
+
+.modules-center{
+  background: @bg1;
+  border-radius: 50px;
+  padding: 0 5 0 5;
+}
+
+#workspaces{
+  background: transparent;
+  margin: 0px;
+  padding: 0px 8px 0px 8px;
+  border: none;
+  box-shadow: none;
+}
+#workspaces button {
+  font-family: "ButterflyHeaven", "Rubik";
+  font-size: 18px;
+  padding: 0px 3px;
+  margin: 0px 1px;
+  border-radius: 28px;
+  background: transparent;
+  color: @peach;
+
+  min-width: 28px;
+
+  text-shadow:
+  0 0 1px @peach-glow;
+
+  transition:
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
+}
+
+#workspaces button.active {
+  color: @blue;
+  padding: 0px 4px;
+  min-width: 40px;
+
+  text-shadow:
+    0 0 4px @blue-1,
+    0 0 10px @blue-2,
+    0 0 18px @blue-3;
+}
+
+#battery {
+  padding: 0 15 0 10;
+  color: @orange;
+  text-shadow:
+  0 0 1px @orange,
+  0 0 1 @orange;
+}
+
+#battery.charging {
+  color: @orange;
+    text-shadow:
+    0 0 4px @orange,
+    0 0 18px @orange-3;
+}
+
+#clock{
+  padding: 0 15 0 15;
+  color: @blue;
+  text-shadow:
+    0 0 1px @blue;
+}
+
+#cpu {
+    color: @gold;
+      text-shadow:
+    0 0 1px @gold;
+    padding: 0px 12px 0px 12px;
+}
+
+#memory {
+    color: @purple;
+      text-shadow:
+    0 0 1px @purple;
+    padding: 0px 15px 0px 12px;
+}
+
+  
+#network{
+  color: @peach;
+    text-shadow:
+    0 0 1px @peach;
+   margin: 0 20 0 15;
+  }
+
+#pulseaudio{
+  color: @lime;
+  text-shadow:
+  0 0 1px @lime;
+  margin: 0 10 0 10;
+}

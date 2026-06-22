@@ -1,0 +1,43 @@
+2026/06/06-00:59:19.977 21ea Creating DB /home/Chika/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_asiaflix.net_0.indexeddb.leveldb since it was missing.
+2026/06/06-00:59:19.988 21ea Reusing MANIFEST /home/Chika/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_asiaflix.net_0.indexeddb.leveldb/MANIFEST-000001
+2026/06/06-00:59:20.066 21fa Level-0 table #5: started
+2026/06/06-00:59:20.069 21fa Level-0 table #5: 1803 bytes OK
+2026/06/06-00:59:20.076 21fa Delete type=0 #3
+2026/06/06-00:59:20.076 21ea Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/06-00:59:32.849 21fa Level-0 table #7: started
+2026/06/06-00:59:32.852 21fa Level-0 table #7: 1860 bytes OK
+2026/06/06-00:59:32.858 21fa Delete type=0 #4
+2026/06/06-00:59:32.858 21ea Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/06-00:59:46.362 21fb Level-0 table #9: started
+2026/06/06-00:59:46.365 21fb Level-0 table #9: 901 bytes OK
+2026/06/06-00:59:46.371 21fb Delete type=0 #6
+2026/06/06-00:59:46.371 21ec Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 205 : 1
+2026/06/06-00:59:46.371 21ec Compacting 1@0 + 1@1 files
+2026/06/06-00:59:46.374 21ec Generated table #10@0: 55 keys, 1455 bytes
+2026/06/06-00:59:46.374 21ec Compacted 1@0 + 1@1 files => 1455 bytes
+2026/06/06-00:59:46.380 21ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/06-00:59:46.380 21ec Delete type=2 #9
+2026/06/06-00:59:46.380 21ec Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 205 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/06-01:00:00.434 21f9 Level-0 table #12: started
+2026/06/06-01:00:00.437 21f9 Level-0 table #12: 935 bytes OK
+2026/06/06-01:00:00.442 21f9 Delete type=2 #7
+2026/06/06-01:00:00.443 21f9 Delete type=0 #8
+2026/06/06-01:00:00.443 21ea Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 238 : 1
+2026/06/06-01:00:00.443 21ea Compacting 1@0 + 1@1 files
+2026/06/06-01:00:00.446 21ea Generated table #13@0: 63 keys, 1517 bytes
+2026/06/06-01:00:00.446 21ea Compacted 1@0 + 1@1 files => 1517 bytes
+2026/06/06-01:00:00.451 21ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/06-01:00:00.452 21ea Delete type=2 #12
+2026/06/06-01:00:00.452 21ea Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 238 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/06-01:00:06.285 21f9 Level-0 table #15: started
+2026/06/06-01:00:06.289 21f9 Level-0 table #15: 933 bytes OK
+2026/06/06-01:00:06.294 21f9 Delete type=0 #11
+2026/06/06-01:00:06.294 21f9 Delete type=2 #10
+2026/06/06-01:00:06.295 21ea Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 271 : 1
+2026/06/06-01:00:06.295 21ea Compacting 1@0 + 1@1 files
+2026/06/06-01:00:06.298 21ea Generated table #16@0: 71 keys, 1602 bytes
+2026/06/06-01:00:06.298 21ea Compacted 1@0 + 1@1 files => 1602 bytes
+2026/06/06-01:00:06.303 21ea compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/06/06-01:00:06.303 21ea Delete type=2 #15
+2026/06/06-01:00:06.304 21ea Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 271 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/06/06-01:00:12.460 21fa Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,51 @@
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/moonlight.txt",
+
+    "position": "left",
+
+    // adjust this if your crescent is too big/small
+    "width": 12
+  },
+
+  "display": {
+    "separator": "  ",
+
+    "color": {
+      "keys": "#FF8C8C",     // peach accent for labels
+      "title": "#7DF9FF"     // neon cyan accent
+    },
+
+    "key": {
+      "width": 20
+    }
+  },
+
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+        {
+            "type": "disk",
+            "key": "Space ",
+            "format": "{size-used} / {size-total} [{size-percentage}]",
+            "folders": "/",
+            "percent": {
+               "type": ["num"]
+            }
+        }
+  ]
+}
