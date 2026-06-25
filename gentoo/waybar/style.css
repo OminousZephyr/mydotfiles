@@ -1,5 +1,11 @@
 /* My config */
 
+@define-color rose           #eb6f92;
+@define-color gold           #f6c177;
+@define-color pine           #3e8fb0;
+@define-color foam           #9ccfd8;
+@define-color iris           #c4a7e7;
+@define-color muted          #6e6a86;
 @define-color rosewater      #f5e0dc;
 @define-color flamingo       #f2cdcd;
 @define-color pink           #f5c2e7;
@@ -17,6 +23,7 @@
 @define-color ruby           #e0115f;
 @define-color crimson        #dc143c;
 @define-color scarlet        #ff2400;
+@define-color aqua           #40e0ff;
 @define-color turquoise      #40e0d0;
 @define-color tomato	     #ff6347;
 @define-color blue           #89b4fa;
@@ -137,7 +144,7 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-  font-family: "Zarame Gothic", "Rubik";
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font", "Zarame Gothic", "Rubik";
   font-size: 18px;
   padding: 0px 3px;
   margin: 0px 1px;
@@ -147,18 +154,19 @@ window#waybar.hidden {
   min-width: 28px; /* important: base size */
 
   transition:
-    color 320ms ease-in-out,
-    text-shadow 320ms ease-in-out,
-    padding 320ms ease-in-out,
-    min-width 320ms ease-in-out;
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
 }
 
 #workspaces button label {
-	font-family: "Zarame Gothic","Zarame Gothic Black", "Rubik";
+	font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font", "Zarame Gothic","Zarame Gothic Black", "Rubik";
 	font-size: 20px;
 	color: @peach;
 	  text-shadow:
-  0 0 1px @peach;
+	0 0 1px @peach,
+	0 0 3px @crust;
 }
 
 #workspaces button.active {
@@ -170,9 +178,10 @@ window#waybar.hidden {
 #workspaces button.active label {
 	color: @teal;
 	text-shadow:
-	2 2 2px @cosmic,
-	2 2 4px @cosmic,
-	0 0 2px @teal;
+	0 2 2px @cosmic,
+	0 2 4px @turqouise,
+	0 0 10px @sky,
+	0 0 18px @blue;
 }
 
 #workspaces button:hover {
@@ -202,6 +211,7 @@ window#waybar.hidden {
 /* === CLOCKS === */
 
 #custom-worldclocks {
+	margin-right: 10px;
 	color: @sapphire;
 	color: @teal;
        	text-shadow:
@@ -268,12 +278,13 @@ window#waybar.hidden {
 
 #pulseaudio {
 	font-size:16px;
-	font-family: "Rubik", "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font", "Fira Code";
+	font-family: "Rubik", "Symbols Nerd Font", "Fira Code";
 	padding: 0 10 0 10;
-	color: @yellow;
+	color: @khaki;
 	text-shadow:
-	0 0 1 @rosewater,
-	0 0 2 @tomato;
+	0 0 1 @cosmic,
+	0 0 1 @mauve,
+	0 0 1 @marigold;
 }
 
 #custom-worldclocks:hover,
@@ -290,10 +301,11 @@ window#waybar.hidden {
 
 #cpu{
 	padding: 0 12 0 12;
-	font-family: "Rubik", "Fira Code";
+	font-family: "Rubik", "Symbols Nerd Font";
 	font-size: 17px;
-	color: @mint;
+	color: @scarlet;
 	text-shadow:
+	0 0 1px @tomato,
 	0 0 1px @rosewater;	
 }
 
@@ -334,9 +346,10 @@ window#waybar.hidden {
 	padding: 0 12 0 12;
 	font-family: "Rubik", "Fira Code";
 	font-size: 17px;
-	color: @khaki;
+	color: @rosewater;
 	text-shadow:
-	0 0 1px @rosewater;	
+	0 0 1px @peach,
+	0 0 2px @lavender;	
 }
 
 #backlight{
@@ -349,19 +362,14 @@ window#waybar.hidden {
 /* === NETWORK & AUDIO === */
 
 #network {
-	padding: 0 10 0 10;
+	padding: 0 10 0 20;
        	font-family: "Rubik", "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font";
 	font-size : 17px;
-	color: @amethyst;
+	color: @mint;
 	text-shadow:
-	0 0 1px @mauve;
+	0 0 1px @rosewater;
 }
-#network:hover {
-	color: @amethyst;
-       	text-shadow:
-       	0 0 1px @rosewater,
-       	0 0 2px @mauve;
-}
+
 #network.disconnected {
 	color: @tomato;
 }
@@ -405,4 +413,97 @@ window#waybar.hidden {
        	text-shadow:
        	0 0 2px @white,
        	0 0 6px @peach;
+}
+
+#mpd {
+    background: linear-gradient(
+       	90deg,
+       	alpha(@peach, 0.18),
+       	alpha(@jade, 0.18)
+    );
+    font-family: "Iosevka", "Symbols Nerd Font", "Rubik";
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 999px;
+    border-top: 1px solid @black;
+    border-left: 1px solid @black;
+    border-right: 1px solid @black;
+    border-bottom: 1px solid @black;
+
+    transition:
+	border 0.5s ease,
+        background 0.25s ease;
+}
+#mpd:hover {
+    background: linear-gradient(
+        90deg,
+        alpha(@peach, 0.38),
+        alpha(@jade, 0.38)
+    );
+    border: 5px @peach;
+}
+
+#mpd.paused {
+    color: @rose;
+    text-shadow:
+	0 0 1px @iris,
+	0 0 1px @rosewater;
+}
+
+/* Stopped */
+#mpd.stopped {
+    color: @jade;
+    text-shadow: none;
+}
+
+/* Disconnected */
+#mpd.disconnected {
+    color: @rosewater;
+    text-shadow: none;
+}
+
+
+#mpd.playing {
+    animation: mpd-wave 10s ease-in-out infinite;
+}
+
+@keyframes mpd-wave {
+    0% {
+        color: @iris;
+        text-shadow:
+            0 0 1px @iris,
+            0 0 2px @rosewater;
+    }
+
+    25% {
+        color: @rosewater;
+        text-shadow:
+            0 0 2px @iris,
+            0 0 2px @foam,
+            0 0 1px @rosewater;
+    }
+
+    50% {
+        color: @foam;
+        text-shadow:
+            0 0 2px @foam,
+            0 0 2px @pine,
+            0 0 2px @foam;
+    }
+
+    75% {
+        color: @rosewater;
+        text-shadow:
+            0 0 2px @foam,
+            0 0 2px @khaki,
+            0 0 1px @rosewater;
+    }
+
+    100% {
+        color: @iris;
+        text-shadow:
+            0 0 1px @iris,
+            0 0 2px @rosewater;
+    }
 }

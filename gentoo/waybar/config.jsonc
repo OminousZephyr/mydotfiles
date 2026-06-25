@@ -7,19 +7,11 @@
 # ---------------------------------------
 */
 [
-	/* BAR 1
-	Left:  Powermenu, workspaces
-	Mid:   Date, Music, Time
-	Right: Network, Keyboard Layout, Audio */
-	
-	/*
 
 	{
 		"include": "~/.config/waybar/modules.jsonc",
 		"height": 35,
 		"layer": "top",
-		"output": "YOUR-FIRST-MONITOR-NAME",
-		"mode": "dock",
 		"exclusive": true,
 		"passtrough": false,
 		"gtk-layer-shell": true,
@@ -29,31 +21,41 @@
 		"margin-right": 0,
 		"on-scroll-threshold": 1,
 		"modules-left": [
-			"custom/arch",
-			"niri/workspaces"
+			"clock#date",
+			"custom/worldclocks",
+			"mpd"
 		],
 		"modules-center": [
-			"custom/arrow-right-no1",
-			"clock#date",
-			"custom/arrow-right-gr0",
-			"custom/music",
-			"custom/arrow-left-gr0",
-			"clock#time",
-			"custom/arrow-left-no1"
+			"niri/workspaces"
 		],
 		"modules-right": [
-			"custom/arrow-right-no1",
+			"group/hardware-drawer",
 			"network",
-			"niri/language",
-			"pulseaudio"
+			"pulseaudio",
+			"battery"
+		],
+		
+		"group/hardware-drawer": {
+		"orientation": "horizontal",
+		"drawer": {
+		"transition-duration": 500,
+		"transition-left-to-right": true
+		},
+	
+		"modules": [
+		"backlight",
+		"cpu",
+		"memory",
+		"temperature"
 		]
-	}
-	*/
+		}
+	}    
+]
 	/* BAR 2
 	Left:  Powermenu, workspaces
 	Mid:   Date, Current Window, Time
 	Right: RAM, GPU, CPU, Brightness, Notifications, Tray
-	*/
+	
 	{
 		"include": "~/.config/waybar/modules.jsonc",
 		"height": 35,
@@ -69,14 +71,14 @@
 		"margin-right": 0,
 		"on-scroll-threshold": 1,
 		"modules-left": [
-			"custom/meow",
-			"niri/workspaces"
+			"custom/meow"
+			/* "niri/window" */
 		],
 		"modules-center": [
 			"clock#date",
 			"custom/worldclocks",
 			/* "clock#time", */
-			"niri/window",
+			"niri/workspaces",
 			"network",
 			"pulseaudio"
 		],
@@ -90,4 +92,4 @@
 			"battery"
 		]
 	}	
-]
+] */

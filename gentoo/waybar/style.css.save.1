@@ -1,0 +1,508 @@
+/* My config */
+
+@define-color rose           #eb6f92;
+@define-color gold           #f6c177;
+@define-color pine           #3e8fb0;
+@define-color foam           #9ccfd8;
+@define-color iris           #c4a7e7;
+@define-color muted          #6e6a86;
+@define-color rosewater      #f5e0dc;
+@define-color flamingo       #f2cdcd;
+@define-color pink           #f5c2e7;
+@define-color mauve          #cba6f7;
+@define-color red            #f38ba8;
+@define-color maroon         #eba0ac;
+@define-color peach          #FF8C8C;
+@define-color yellow         #ffff00;
+@define-color green          #a6e3a1;
+@define-color teal           #94e2d5;
+@define-color sky            #89dceb;
+@define-color sapphire       #74c7ec;
+@define-color emerald	     #50c878;
+@define-color jade	     #00a86b;
+@define-color ruby           #e0115f;
+@define-color crimson        #dc143c;
+@define-color scarlet        #ff2400;
+@define-color turquoise      #40e0d0;
+@define-color tomato	     #ff6347;
+@define-color blue           #89b4fa;
+@define-color lime           #00ff00;
+@define-color mint	     #98ff98;
+@define-color amber          #ffbf00;
+@define-color copper	     #b35c00;
+@define-color marigold	     #e67300;
+@define-color lavender       #b38cfd;
+@define-color khaki	     #f0e68c;
+@define-color beige          #f5f5dc;
+@define-color text           #cdd6f4;
+@define-color subtext1       #bac2de;
+@define-color subtext0       #a6adc8;
+@define-color overlay2       #9399b2;
+@define-color overlay1       #7f849c;
+@define-color overlay0       #6c7086;
+@define-color surface2       #585b70;
+@define-color surface1       #45475a;
+@define-color surface0       #313244;
+@define-color base           #1e1e2e;
+@define-color mantle         #181825;
+@define-color crust          #11111b;
+@define-color white          #ffffff;
+@define-color purple         #cc00ff;
+@define-color cosmic         #7209b7;
+@define-color indigo         #b5179e;
+@define-color amethyst	     #9966cc;
+
+
+/* === GLOBAL === */
+
+/* {
+	font-family: "Rubik", "Fira Code", "GeistMono Nerd Font";
+	font-size: 18px;
+}*/
+
+tooltip {
+	font-family: "Rubik", "Fira Code";
+	font-size: 15px;
+	color: @teal;
+	background: @base;
+	min-width: 40px;
+	border: 2px solid @cosmic;
+	border-radius: 12;
+}
+
+
+/* === NOTIFICATIONS === */
+
+#custom-notifications {
+	background-color: @no1;
+	color: @re1;
+	font-size: 20px;
+}
+
+#custom-notifications:hover {
+	color: @re0;
+	background-color: @re1;
+}
+
+#custom-notifications.dnd-none {
+	color: @re1;
+}
+
+#custom-notifications.dnd-none:hover {
+	color: @re1;
+	background-color: @re2;
+}
+
+/* === UPDATES === */
+
+#custom-updates {
+	color: @wh0;
+	font-size: 20px;
+	margin: 0 20px;
+}
+
+#custom-updates:hover {
+	background-color: @gr1;
+}
+
+
+window#waybar {
+	background: @mantle;
+	opacity: 1;
+}
+
+window#waybar.hidden {
+	opacity: 0;
+}
+
+#custom-meow {
+	font-size: 20px;
+	padding-left: 2;
+	padding-right: 5;
+	padding-bottom: 1px;
+	
+	color: @mauve;
+	font-weight: bold;
+	text-shadow:
+	0 0 1 @cosmic,
+	1 0 1 @purple,
+	0 1 1 @purple,
+	0 0 2 @cosmic;
+}
+
+#custom-meow:hover {
+	color: @teal;
+}
+
+
+/* === WORKSPACES === */
+
+#workspaces {
+	border: none;
+	font-weight: 900;
+}
+
+#workspaces button {
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font", "Zarame Gothic", "Rubik";
+  font-size: 18px;
+  padding: 0px 3px;
+  margin: 0px 1px;
+  border-radius: 28px;
+  background: transparent;
+
+  min-width: 28px; /* important: base size */
+
+  transition:
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
+}
+
+#workspaces button label {
+	font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font", "Zarame Gothic","Zarame Gothic Black", "Rubik";
+	font-size: 20px;
+	color: @peach;
+	  text-shadow:
+	0 0 1px @peach,
+	0 0 3px @crust;
+}
+
+#workspaces button.active {
+  color: @blue;
+  padding: 0px 5px;
+  min-width: 40px;
+}
+
+#workspaces button.active label {
+	color: @teal;
+	text-shadow:
+	0 2 2px @cosmic,
+	0 2 4px @turqouise,
+	0 0 10px @sky,
+	0 0 18px @blue;
+}
+
+#workspaces button:hover {
+	background-color: @mantle;
+}
+
+#workspaces button:hover label {
+	color: @peach;
+}
+
+#workspaces button.active:hover {
+	background-color: @mantle;
+}
+
+#workspaces button.active label {
+	color: @sapphire;
+}
+
+#workspaces button.urgent {
+	background-color: @sapphire;
+}
+
+#workspaces button.urgent label {
+	color: @sapphire;
+}
+
+/* === CLOCKS === */
+
+#custom-worldclocks {
+	margin-right: 10px;
+	color: @sapphire;
+	color: @teal;
+       	text-shadow:
+       	0 0 2 @sapphire,
+	0 0 1 @teal;
+}
+
+/* === MUSIC === */
+
+#custom-music {
+	background-color: @gr0;
+	color: @no0;
+	padding: 0 32px;
+	border: none;
+}
+
+
+/* === NOTIFICATIONS === */
+
+#custom-notifications {
+	background-color: @no1;
+	color: @re1;
+	font-size: 20px;
+}
+
+#custom-notifications:hover {
+	color: @re0;
+	background-color: @re1;
+}
+
+#custom-notifications.dnd-none {
+	color: @re1;
+}
+
+#custom-notifications.dnd-none:hover {
+	color: @re1;
+	background-color: @re2;
+}
+
+/* === UPDATES === */
+
+#custom-updates {
+	color: @wh0;
+	font-size: 20px;
+	margin: 0 20px;
+}
+
+#custom-updates:hover {
+	background-color: @gr1;
+}
+
+#custom-worldclocks,
+#clock.date {
+	font-family: "Rubik", "Fira Code";
+	font-size: 17px;
+       	padding: 0 10 0 10;
+       	min-width: 50px;
+	    transition:
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
+}
+
+#pulseaudio {
+	font-size:16px;
+	font-family: "Rubik", "Symbols Nerd Font", "Fira Code";
+	padding: 0 10 0 10;
+	color: @khaki;
+	text-shadow:
+	0 0 1 @cosmic,
+	0 0 1 @mauve,
+	0 0 1 @marigold;
+}
+
+#custom-worldclocks:hover,
+#clock.date:hover {
+	color: @teal;
+	padding: 0 25px;
+	min-width: 85px;
+	text-shadow:
+	0 0 2px @white,
+	0 0 8px @marigold;
+}
+
+/* === SYSTEM METRICS === */
+
+#cpu{
+	padding: 0 12 0 12;
+	font-family: "Rubik", "Symbols Nerd Font";
+	font-size: 17px;
+	color: @scarlet;
+	text-shadow:
+	0 0 1px @tomato,
+	0 0 1px @rosewater;	
+}
+
+#cpu:hover{
+	
+}
+
+#memory{
+	padding: 0 12 0 12;
+	font-family: "Rubik", "Fira Code";
+	font-size: 17px;
+	color: @marigold;
+	text-shadow:
+	0 0 1px @rosewater;
+}
+
+#memory:hover{
+}
+
+#temperature{
+	padding: 0 12 0 12;
+	font-family: "Rubik", "Fira Code";
+	font-size: 17px;
+	color: @red;
+	text-shadow:
+	0 0 1px @rosewater;
+}
+
+#temperature:hover {
+}
+
+#temperature.critical {
+	color: @red;
+	background-color: @rosewater;
+}
+
+#battery{
+	padding: 0 12 0 12;
+	font-family: "Rubik", "Fira Code";
+	font-size: 17px;
+	color: @rosewater;
+	text-shadow:
+	0 0 1px @peach,
+	0 0 2px @lavender;	
+}
+
+#backlight{
+	font-family: "Rubik", "Fira Code";
+	font-size: 17px;
+	color: @blue;
+	text-shadow:
+	0 0 1px @rosewater;
+}
+/* === NETWORK & AUDIO === */
+
+#network {
+	padding: 0 10 0 20;
+       	font-family: "Rubik", "Font Awesome 6 Free", "Font Awesome 6 Brands", "Symbols Nerd Font";
+	font-size : 17px;
+	color: @mint;
+	text-shadow:
+	0 0 1px @rosewater;
+}
+
+#network.disconnected {
+	color: @tomato;
+}
+
+#network.linked {
+	color: @jade;
+}
+
+#clock.date {
+	padding: 0 10 0 10;
+	color: @mint;
+	font-size: 17px;
+	text-shadow:
+	0 0 1px @emerald,
+	0 0 2px @jade,
+	0 0 1px @rosewater;
+}
+
+#pulseaudio.muted {
+	color: @ruby;
+	text-shadow:
+	0 0 1px @scarlet,
+	0 0 2px @crimson;
+}
+
+/* === WINDOW === */
+
+#window {
+	font-family: "Magnolia Script", "Rubik";
+	font-size: 18px;
+	color: @rosewater;
+	text-shadow:
+	0 0 1px @flamingo,
+	0 0 1px @peach,
+	0 0 1px @red;
+	padding: 0 15px;
+	border: none;
+}
+#window:hover {
+       	color: @flamingo;
+       	text-shadow:
+       	0 0 2px @white,
+       	0 0 6px @peach;
+}
+
+#mpd {
+    background: linear-gradient(
+       	90deg,
+       	alpha(@peach, 0.18),
+       	alpha(@jade, 0.18)
+    );
+    font-family: "Iosevka", "Symbols Nerd Font", "Rubik";
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 999px;
+    border-top: 1px solid @black;
+    border-left: 1px solid @black;
+    border-right: 1px solid @black;
+    border-bottom: 1px solid @black;
+
+    transition:
+	border 0.75s ease,
+        background 0.25s ease;
+}
+#mpd:hover {
+    background: linear-gradient(
+        90deg,
+        alpha(@peach, 0.38),
+        alpha(@jade, 0.38)
+    );
+    border: 5px @peach;
+}
+
+#mpd.paused {
+    color: @rose;
+    text-shadow:
+	0 0 1px @iris,
+	0 0 1px @rosewater;
+}
+
+/* Stopped */
+#mpd.stopped {
+    color: @jade;
+    text-shadow: none;
+}
+
+/* Disconnected */
+#mpd.disconnected {
+    color: @rosewater;
+    text-shadow: none;
+}
+
+
+#mpd.playing {
+    animation: mpd-wave 10s ease-in-out infinite;
+}
+
+@keyframes mpd-wave {
+    0% {
+        color: @iris;
+        text-shadow:
+            0 0 1px @iris,
+            0 0 2px @rosewater;
+    }
+
+    25% {
+        color: @rosewater;
+        text-shadow:
+            0 0 2px @iris,
+            0 0 2px @foam,
+            0 0 1px @rosewater;
+    }
+
+    50% {
+        color: @foam;
+        text-shadow:
+            0 0 2px @foam,
+            0 0 2px @pine,
+            0 0 2px @foam;
+    }
+
+    75% {
+        color: @rosewater;
+        text-shadow:
+            0 0 2px @foam,
+            0 0 2px @khaki,
+            0 0 1px @rosewater;
+    }
+
+    100% {
+        color: @iris;
+        text-shadow:
+            0 0 1px @iris,
+            0 0 2px @rosewater;
+    }
+}

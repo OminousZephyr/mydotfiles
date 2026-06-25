@@ -1,0 +1,97 @@
+/* 
+# ---------------------------------------
+# cybr-waybar     waybar config (part of cybrcore)
+# Project:        https://github.com/cybrcore/cybr-waybar
+# Author:         scherrer-txt   |   License:     GPL-3.0
+# Source:         ~/.config/waybar/config.jsonc
+# ---------------------------------------
+*/
+[
+	/* BAR 1
+	Left:  Powermenu, workspaces
+	Mid:   Date, Music, Time
+	Right: Network, Keyboard Layout, Audio */
+
+	{
+		"include": "~/.config/waybar/modules.jsonc",
+		"height": 35,
+		"layer": "top",
+		"exclusive": true,
+		"passtrough": false,
+		"gtk-layer-shell": true,
+		"margin-top": 0,
+		"margin-left": 0,
+		"margin-bottom": 0,
+		"margin-right": 0,
+		"on-scroll-threshold": 1,
+		"modules-left": [
+			"custom/meow",
+			"group/hardware-drawer"
+		],
+		"modules-center": [
+			"niri/workspaces"
+		],
+		"modules-right": [
+			"clock#date",
+			"custom/worldclock",
+			"network",
+			"pulseaudio",
+			"battery"
+		],
+		"group/hardware-drawer": {
+		"orientation": "horizontal",
+		"drawer": {
+        "transition-duration": 500,
+        "transition-left-to-right": false
+	},
+	
+	"modules": [
+        "backlight",    /* The main visible icon you hover over */
+        "cpu",          /* Hidden until hovered */
+        "memory",       /* Hidden until hovered */
+        "temperature"   /* Hidden until hovered */
+    ]
+}
+`]
+	/* BAR 2
+	Left:  Powermenu, workspaces
+	Mid:   Date, Current Window, Time
+	Right: RAM, GPU, CPU, Brightness, Notifications, Tray
+	
+	{
+		"include": "~/.config/waybar/modules.jsonc",
+		"height": 35,
+		"layer": "top",
+		/*"output": "YOUR-SECOND-MONITOR-NAME",
+		"mode": "dock",*/
+		"exclusive": true,
+		"passtrough": false,
+		"gtk-layer-shell": true,
+		"margin-top": 0,
+		"margin-left": 0,
+		"margin-bottom": 0,
+		"margin-right": 0,
+		"on-scroll-threshold": 1,
+		"modules-left": [
+			"custom/meow"
+			/* "niri/window" */
+		],
+		"modules-center": [
+			"clock#date",
+			"custom/worldclocks",
+			/* "clock#time", */
+			"niri/workspaces",
+			"network",
+			"pulseaudio"
+		],
+		"modules-right": [
+		/*	"bluetooth", */
+			"memory",
+			"cpu",
+			"temperature#cpu",
+			/* "temperature#gpu", */
+			"backlight",
+			"battery"
+		]
+	}	
+] */

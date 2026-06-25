@@ -1,31 +1,54 @@
+# ==============================================================================
+# GOTHAM COLOR PALETTE SPECIFICATION
+# A deep, dark, cold theme inspired by a gritty comic book aesthetic.
+# ==============================================================================
+
+# --- Primary Surface Tones ---
 [colors.primary]
-foreground = "#F0E0E6"
-background = "#1F1F20"
+background = "#0c1014" # Base 0 (Deepest ink-black/navy canvas)
+foreground = "#99d1ce" # Base 6 (Bright Ice Cyan text)
 
+# --- Terminal Cursor Colors ---
 [colors.cursor]
-text = "#292a2b"
-cursor = "#7DF9FF"
+text = "#0c1014"       # Inverts against the cursor block
+cursor = "#99d1ce"     # Ice Cyan cursor indicator
 
+# --- Text Selection Highlights ---
 [colors.selection]
-text = "#1E1E1E"
-background = "#FF8C8C"
+text = "#d3ebe9"       # Near White/Mint text inside selections
+background = "#245361" # Base 4 (Muted Blue/Gray block selection)
 
+# --- Dynamic Shell Search Bars ---
+[colors.search.matches]
+foreground = "#0c1014"
+background = "#edb443" # Gotham Yellow for match blocks
+
+[colors.search.focused_match]
+foreground = "#0c1014"
+background = "#c23127" # Gotham Red for target focus
+
+# ==============================================================================
+# CORE ANSI 16-COLOR SYNTAX CHANNELS
+# ==============================================================================
+
+# --- Normal Color Blocks ---
 [colors.normal]
-black = "#000000"
-red = "#ff2c6d"
-green = "#19f9d8"
-yellow = "#ffb86c"
-blue = "#45a9f9"
-magenta = "#ff75b5"
-cyan = "#b084eb"
-white = "#cdcdcd"
+black = "#11151c"      # Base 1 (Dark Panel Navy)
+red = "#c23127"        # Gotham Red (Errors & Keywords)
+green = "#2aa889"      # Gotham Green (Classes & Strings)
+yellow = "#edb443"     # Gotham Yellow (Strings & Highlights)
+blue = "#195466"       # Gotham Dark Blue (Identifiers)
+magenta = "#4e5166"    # Gotham Deep Violet (Operators)
+cyan = "#33859e"       # Gotham Cyan (Types & Tags)
+white = "#599cab"      # Base 5 (Soft Teal Text)
 
+# --- Bright Color Blocks ---
 [colors.bright]
-black = "#757575"
-red = "#ff2c6d"
-green = "#19f9d8"
-yellow = "#ffcc95"
-blue = "#6fc1ff"
-magenta = "#ff9ac1"
-cyan = "#bcaafe"
-white = "#e6e6e6"
+black = "#0a3749"      # Base 3 (Highlight Deep Cyan)
+red = "#d26937"        # Gotham Orange Accent
+green = "#2aa889"      # Consistent Green Line
+yellow = "#edb443"     # Consistent Yellow Line
+blue = "#245361"       # Base 4 (Muted Blue/Gray)
+magenta = "#888ca6"    # Gotham Light Magenta (Conditionals)
+cyan = "#599cab"       # Saturated Soft Teal
+white = "#d3ebe9"      # Base 7 (Highest Contrast Near-White/Mint)

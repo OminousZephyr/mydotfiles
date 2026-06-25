@@ -1,0 +1,106 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["niri/workspaces"],
+  "modules-center": [
+	"tray",
+	"clock",
+	"custom/media",
+	"pulseaudio",
+	"network",
+	"battery",
+	],
+
+  "modules-right": ["cpu", "memory"],
+
+ "niri/workspaces": {
+    "format": "{icon}",
+
+    "format-icons": {
+        "ichi": "一",
+        "ni": "二",
+        "san": "三",
+        "4": "四",
+        "5": "五",
+        "6": "六",
+        "7": "七",
+        "8": "八",
+        "9": "九",
+        "10": "十"
+    }
+},
+
+ "cpu": {
+    "interval": 10,
+    "format": "{}%",
+    "max-length": 10
+},
+ 
+  "memory": {
+    "format": "RAM: {used}/{total} GB"
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-discharging": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon}",
+    "format-plugged": "{capacity}% ",
+    "format-icons": {
+      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+    "format-full": "󰂅",
+    "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
+    "tooltip-format-charging": "{power:>1.0f}W↑ {capacity}%",
+    "interval": 5,
+    "states": {
+      "warning": 20,
+      "critical": 10
+    }
+  },
+
+  "network": {
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format": "{icon}",
+    "format-wifi": "{icon}",
+    "format-ethernet": "<span size='11500'>󰌘</span>",
+    "format-disconnected": "<span size='11500'>󰤮</span>",
+    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+    "tooltip-format-disconnected": "Disconnected",
+    "interval": 3,
+    "spacing": 1,
+  },
+  
+   "clock": {
+    "interval": 60,
+    "tooltip": true,
+    "format": "{:%a  %d %b    |    %H:%M %Z}",
+    "timezone": "Asia/Kolkata",
+    "tooltip-format": "{:%A, %d %B %Y\n%H:%M:%S %Z}"
+},
+
+  "bluetooth": {
+    "format": "<span size='11500'>󰂯</span>",
+    "format-disabled": "<span size='11500'>󰂲</span>",
+    "format-connected": "<span size='11500'></span>",
+    "format-no-controller": "",
+    "tooltip-format": "Devices connected: {num_connections}",
+  },
+
+  "pulseaudio": {
+    "format": "<span size='11500'>{icon}</span>",
+    "on-click": "pavucontrol",
+    "on-click-right": "pamixer -t",
+    "tooltip-format": "Playing at {volume}%",
+    "scroll-step": 5,
+    "format-muted": "",
+    "format-icons": {
+      "default": [
+        " ",
+        " ",
+        " "
+      ]
+    }
+}
+}

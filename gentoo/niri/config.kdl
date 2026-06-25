@@ -11,6 +11,7 @@ prefer-no-csd
 workspace "ichi"
 workspace "ni"
 workspace "san"
+workspace "yon"
 
 cursor {
     hide-when-typing
@@ -128,7 +129,7 @@ input {
 layout {
 
     // Set gaps around windows in logical pixels.
-    gaps 8
+    gaps 2
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -235,7 +236,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+        on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -377,12 +378,56 @@ window-rule {
 // Enable blur behind the Alacritty terminal.
 window-rule {
     match app-id="^Alacritty$"
-
     background-effect {
-        blur true
+	blur true
     }
 }
 
+window-rule {
+    match app-id="kitty" // Or whatever app you want
+    open-on-workspace "san"
+    open-maximized true
+    clip-to-geometry true
+    geometry-corner-radius 0    
+    focus-ring {
+        on
+        active-color "#181825"
+        width 2
+    }
+}
+
+window-rule {
+    match app-id="zen"
+    open-on-workspace "yon"
+    open-fullscreen true
+    clip-to-geometry true
+    geometry-corner-radius 0
+    focus-ring {
+	on
+        active-color "#181825"
+        width 2
+    }
+}
+
+window-rule {
+    match app-id="music"
+    open-floating true
+    focus-ring {
+        on
+        width 4
+        active-gradient from="#eb6f92" to="#00a86b" angle=90
+        // active-color "#74c7ec"
+	inactive-color "#7209b7"
+    }
+       shadow {
+        on
+        softness 60
+        spread 12
+        offset x=0 y=0
+        // color "#89b4fa"
+	color "#ff8c8c"
+    }
+}
 spawn-at-startup "sh" "-c" "waybar"
 spawn-sh-at-startup "swaybg -i ~/Downloads/jase-bloor-oCZHIa1D4EU-unsplash.jpg"
 spawn-at-startup "mako"
@@ -427,6 +472,9 @@ binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
 
     // Suggested binds for running programs: terminal, app launcher, screen locker.
+    Mod+M {spawn "foot" "--app-id" "music" "--title" "Music" "-e" "rmpc";}
+    Mod+Z { spawn "zen";}
+    Mod+N { spawn-sh "kitty -e nvim"; }
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
@@ -630,7 +678,7 @@ binds {
     // maximize-window-to-edges doesn't: the window expands to the edges of the screen.
     // This bind corresponds to normal window maximizing,
     // e.g. by double-clicking on the titlebar.
-    Mod+M { maximize-window-to-edges; }
+    // Mod+M { maximize-window-to-edges; }
 
     // Expand the focused column to space not taken up by other fully visible columns.
     // Makes the column "fill the rest of the space".

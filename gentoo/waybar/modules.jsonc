@@ -9,7 +9,41 @@
 		"on-scroll-up": "~/.config/waybar/scripts/bright.sh up",
 		"on-scroll-down": "~/.config/waybar/scripts/bright.sh down"
 	},*/
-
+    "mpd": {
+	"on-click": "foot --app-id music -e rmpc",
+        "format": "{stateIcon} {title}",
+	"tooltip-format": "{artist}\n{album}",
+        "format-disconnected": "󰝛 Offline",
+        "format-stopped": "󰓛 No music",
+        "unknown-tag": "Unknown",
+        "interval": 2,
+        "consume-icons": {
+            "on": "󰝚 "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "󰎔 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+},
+"keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
        	"backlight": {
                	// "interval":
                	"format": "{icon} {percent}%",
@@ -111,7 +145,7 @@
 },
 "custom/worldclocks": {
     "format": "{}",
-    "interval": 30,
+    "interval": 1,
     "return-type": "json",
     "exec": "echo \"{\\\"text\\\":\\\"$(date +'%H:%M:%OS %Z')\\\",\\\"tooltip\\\":\\\"<span font_family='Rubik' font_desc='18px' color='#94e2d5'>$(TZ='America/New_York' date '+%H:%M')   New-York\\\\n$(TZ='Europe/London' date '+%H:%M')   London\\\\n$(TZ='Asia/Tokyo' date '+%H:%M')   Tokyo</span>\\\"}\""
 },
@@ -181,36 +215,52 @@
 		"tooltip-format": "RAM",
 		"interval": 2
 	},
-	/* NETWORK */
+	/* NETWORK 
 	"network": {
-		"format-wifi": "",
+		"format-wifi": "󰤨",
 		"format-ethernet": "",
-		"on-click": "~/.config/hypr/scripts/toggle_scratchpad.sh nm-connection-editor 'nm-connection-editor' scratchpad-large",
+		"on-click": "kitty -e nmtui",
 		"tooltip-format-wifi": "Network: <b>{essid}</b>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\n<span foreground='#eed49f'> {bandwidthDownBytes}</span> <span foreground='#b7bdf8'> {bandwidthUpBytes}</span>",
 		"tooltip-format-ethernet": "Network: <b>{essid}</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>\n<span foreground='#eed49f'> {bandwidthDownBytes}</span> <span foreground='#b7bdf8'> {bandwidthUpBytes}</span>",
 		"format-linked": "󰈀 {ifname} (No IP)",
 		"format-disconnected": "󰖪 ",
 		"tooltip": true,
 		"interval": 2
-	},
+	}, */
+
+	"network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "󰤨 ({signalStrength}%)",
+        "format-ethernet": "{ipaddr}/{cidr} 󰊗",
+        "tooltip-format": "{essid} via {gwaddr} 󰊗",
+        "format-linked": "{ifname} (No IP) 󰊗",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
 	/* AUDIO */
 	"pulseaudio": {
-		"format": "  {volume}%",
-		"format-muted": "  MUTE",
-		"interval": 1,
-		"tooltip-format": "{desc}, {volume}%",
-		/* "on-click": "~/.config/hypr/scripts/toggle_scratchpad.sh org.pulseaudio.pavucontrol 'pavucontrol' scratchpad-large",
-		"on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-		"on-click-middle": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle",
-		"on-scroll-up": "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+",
-		"on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
-	*/
-	},
-	/* LOGO */
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}",
+        "format-bluetooth": "{icon}",
+        "format-bluetooth-muted": "{icon}",
+        "format-muted": "󰅶 {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "󰂑",
+            "headset": "󰂑",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
 	"custom/meow": {
 		"format": " ♛ ",
 		"tooltip": false,
-		/* "on-click": "~/.config/rofi/scripts/powermenu/powermenu",
+/*		"on-click": "~/.config/rofi/scripts/powermenu/powermenu",
 		"on-click-right": "rofi -show drun"
 	*/
 	},
@@ -288,12 +338,12 @@
 	},
 	/* WORKSPACES */
 	"niri/workspaces": {
-		"disable-scroll": true,
+		"disable-scroll": false,
 		"active-only": false,
 		"all-outputs": false,
 		"enable-bar-scroll": true,
 		"format": "{icon}",
-		"format-icons": {
+		/* "format-icons": {
         "ichi": "一",
         "ni": "二",
         "san": "三",
@@ -303,7 +353,13 @@
         "7": "七",
         "8": "八",
         "9": "九",
-        "10": "十"
+        "10": "十" */
+		"format-icons": {
+		"ichi": "",
+		"ni": "󰈹",
+		"san": "",
+		"yon": "󰥟",
+		"5": "󰐝"
     }
 		},
 		/*"on-scroll-up": "hyprctl dispatch workspace r-1",

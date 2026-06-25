@@ -1,0 +1,126 @@
+@import "meow.css";
+* {
+  border: none;
+  border-radius: 0px;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  min-height: 30px;
+}
+
+window#waybar{
+  font-family: "Rubik";
+  background:transparent;
+}
+
+#window {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tooltip {
+  background: @bg1;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @white;
+  padding: 6px 8px;
+}
+ 
+/*
+.modules-left{
+  background:#000000;
+  border-radius: 28px;
+}
+
+.modules-center{
+  background: #000000;
+  padding: 6px 12px;
+  border-radius: 28px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+.modules-right{
+  background:#000000;
+  border-radius: 28px;
+}*/
+
+.modules-center,
+.modules-right {
+  background: @bg1;
+  padding: 3 0 3 0;
+  border-radius: 28px;
+}
+.modules-center{
+  padding: 0 5 0 5;
+}
+
+#workspaces{
+  background: transparent;
+  margin: 0px;
+  padding: 0px 5px 0px 5px;
+  border: none;
+  box-shadow: none;
+}
+#workspaces button {
+  font-family: "Zarame Gothic", "Rubik";
+  font-size: 18px;
+  padding: 0px 3px;
+  margin: 0px 1px;
+  border-radius: 28px;
+  background: transparent;
+  color: @peach;
+
+  min-width: 28px; /* important: base size */
+
+  text-shadow:
+  0 0 1px @peach-glow;
+
+  transition:
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
+}
+
+#workspaces button.active {
+  color: @blue;
+  padding: 0px 4px;
+  min-width: 40px;
+
+  text-shadow:
+    0 0 4px @blue-1,
+    0 0 10px @blue-2,
+    0 0 18px @blue-3;
+}
+
+#window, #backlight, #battery {
+  padding: 0px 8px;
+  margin: 0px 5px;
+  color: @orange;
+}
+
+#battery.charging {
+  color: #7DF9FF;
+}
+
+#clock{
+  color: @blue;
+  text-shadow:
+    0 0 2px @blue;
+}
+
+#cpu{
+  color: #FF8C8C;
+  margin:0 10 0 5px;
+}
+
+#network{
+  color: @purple;
+  font-size: 18px;
+  }
+#pulseaudio{
+  color: @mint;
+  margin-left: 10px;
+  }

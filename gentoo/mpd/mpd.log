@@ -1,0 +1,782 @@
+2026-06-25T15:38:38 exception: Failed to open "/home/zephyr/.config/mpd/mpdstate": No such file or directory
+2026-06-25T16:00:45 update: added Music/Once Upon a Time in Mumbai Dobaara! - Ye Tune Kya Kiya.mp3
+2026-06-25T16:00:45 update: added Music/The Black Eyed Peas - Pump It [www.slider.kz].mp3
+2026-06-25T16:00:45 update: added Music/Owl City - Fireflies [www.slider.kz].mp3
+2026-06-25T16:00:45 update: added Music/Akon feat. Eminem - Smack That [www.slider.kz].mp3
+2026-06-25T16:00:45 update: added Music/Harry Styles - As It Was.mp3
+2026-06-25T16:00:45 update: added Music/Soulmate - Badshah.mp3
+2026-06-25T16:00:45 update: added Music/Imagine Dragons - Warriors [www.slider.kz].mp3
+2026-06-25T16:00:45 update: added Music/Eminem - Mockingbird [www.slider.kz].mp3
+2026-06-25T16:00:45 update: added Music/Mariah-Carey---All-I-Want-for-Christmas-Is-You(musicdownload.cc).mp3
+2026-06-25T16:00:46 update: added Music/02. Dil Mera Churaya Kyun.wav
+2026-06-25T16:00:46 update: added Music/032 sach keh raha hai deewana - 032 sach keh raha hai deewana.mp3
+2026-06-25T16:00:46 update: added Music/The Weeknd - Save Your Tears [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Eminem - The Real Slim Shady [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Charlie Puth - Light Switch [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Olivia Rodrigo - Vampire (2023) [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Eminem - Lose Yourself [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/mya-nee.mp3
+2026-06-25T16:00:46 update: added Music/BTS - Butter.mp3
+2026-06-25T16:00:46 update: added Music/øne directiøn - night changes.mp3
+2026-06-25T16:00:46 update: added Music/KK, Shreya Ghoshal - Teri Yaadon Mein.mp3
+2026-06-25T16:00:46 update: added Music/Eminem - Rap God [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Atif - Aadat.mp3
+2026-06-25T16:00:46 update: added Music/Macklemore, Ryan Lewis feat. Wanz - Thrift Shop (feat. Wanz) [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Rahat Fateh Ali - Ishq Risk.mp3
+2026-06-25T16:00:46 update: added Music/Eminem feat. Juice WRLD - Godzilla [www.slider.kz].mp3
+2026-06-25T16:00:46 update: added Music/Kohmi Hirose - promise.ogg
+2026-06-25T16:00:46 update: added Music/Doja Cat - Paint The Town Red.mp3
+2026-06-25T16:00:46 update: added Music/Eminem---Without-Me(musicdownload.cc).mp3
+2026-06-25T16:00:46 update: added Music/Dj Waley Babu (feat. Aastha Gill).wav
+2026-06-25T16:00:46 update: added Music/Emenim - Superman.mp3
+2026-06-25T16:00:46 update: added Music/Gajendra Verma - Mann Mera.mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Hunter x Hunter 2011 Character Songs - Kyousou Requiem by Hisoka Morow [Lyrics] (320kbps).mp3
+[/var/tmp/portage/media-sound/mpg123-base-1.33.3/work/mpg123-1.33.3/src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-25T16:00:46 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-25T16:00:46 update: added Music/Music/K-ON! Fuwa Fuwa Time Yui and Mio Duet HD.mp3
+2026-06-25T16:00:46 update: added Music/Music/Hi Ni Moeru Hitomi by Kurapika .mp3
+2026-06-25T16:00:46 update: added Music/Music/-_I_don_t_wanna_get_out_of_futon_(Rilds.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - Fude Pen Ball Pen Calligraphy Pen Ballpoint Pen  KON MUSIC HISTORYS BOX Disc 3  3 of 8_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Shokugeki no Souma OST - Kibou No Uta (Ultra Tower) Vietsub + Kara (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/THE DAY (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Realize (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Hikari E (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Suzume (feat. Toaka) - Radwimps  Toaka (320).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Believe (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Renai Circulation (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Netsujou No Spectrum (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Kimi No Sei (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Silhouette (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/DREAMIN Apos ON (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Masayuki Suzuki - Love Dramatic.mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Kokoro No Chizu (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Clattanoia (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Tabibito No Uta (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Guren No Yumiya (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Redo (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Ao No Sumika (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Kawaki Wo Ameku (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/BRAND NEW WORLD (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/STAY FREE (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/TOMORROW (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Sparkle Original Ver (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/This Game (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Shinzou Wo Sasageyo (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Gurenge (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Ado - New Genesis (ウタ from ONE PIECE FILM RED).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/The WORLD (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Fantastic Dreamer (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Koi Wa Explosion (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/DADDY DADDY DO Feat Airi Suzuki (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Inferno (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/KICK BACK (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/We Are (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/OVER THE TOP (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Kibou No Uta (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/01. Haruka Kanata.mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Aimer - Zankyosanka.mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Unravel (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Spiral (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/One Day (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Sign (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Crossing Field (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Blue Bird (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Zankoku Na Tenshi No Thesis (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Hikaru Nara (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full op/Yasashisa No Riyuu (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - Gohan wa Okazu Rice as a Side Dish  KON MUSIC HISTORYS BOX Disc 4  5 of 11_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/Mio_Honda_CV._-_Step_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Kajra Re  Full Song  Bunty Aur Babli  Aishwarya Abhishek Amitabh Bachchan  ShankarEhsaanLoy_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Sajdaa Full Video  My Name is KhanShahrukh KhanKajolRahat Fateh AliRicha Sharma_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Imran Khan  Amplifier Official Music Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Banjaara Full Video Song  Ek Villain  Shraddha Kapoor Siddharth Malhotra_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/320kbps_BGMC 2018 - Dekhte Dekhte.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Tere Naina Full Video  My Name is KhanShahrukh KhanKajolShafqat Amanat AliSEL_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Ed Sheeran  Shape of You Official Music Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Desi Girl Full Video  DostanaJohnAbhishekPriyankaSunidhi Chauhan Vishal Dadlani_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Bahara Full Video  I Hate Luv StorysSonam Kapoor ImranShreya Ghoshal Sona Mohapatra_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Radha  SOTYAlia BhattSidharth MalhotraVarun DhawanUdit NarayanShreya Ghoshal_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Justin Bieber  Baby ft Ludacris_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Daku feat Inderpal Moga_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Sadka I Hate Luv Storys 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tere-Bin.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Uff Teri Adaa.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tu Jaane Na Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Jiyein Kyun Dum Maaro Dum 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Bhula Dena Aashiqui 2 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Kabhi-Kabhi-Aditi-Zindagi_320(PaglaSongs).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tere-Naina_320(PagalWorldl).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Yeh Fitoor Mera Arijit Singh 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Afreen-Afreen_320(PaglaSongs).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tum Ho Toh Rock On 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Sajdaa_320(PagalWorldl).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Piya Aaye Na - PagalSongs.com.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Omeri Laila Laila Majnu 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Sau Aasoon Katti Batti 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Saibo Shor In The City Original Motion Picturetrack 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tum Jo Aaye.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tumse Milke.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Baarishein - Anuv Jain.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Khairiyat Chhichhore 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Dil Kyun Yeh Mera.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/She Move It Like CD 1 TRACK 1 (FLAC).flac
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tum Se Hi Jab We Met 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tera Hone Laga Hoon Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/In Dino Life In A Metro 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Rang Jo Lagyo Ramaiya Vastavaiya 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/The Local Train_ Choo Lo (Home Demo) (320).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Pehla Pyaar - Kabir Singh (2019).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Bulleya Sultan 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Pashmeena Fitoor 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Sweetheart Kedarnath 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/O Rangrez Bhaag Milkha Bhaag 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Mora Piya Raajneeti 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Moh Moh Ke Dhaage Female Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/01. Baazigar O Baazigar (From Baazigar).flac
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/05. Ek Din Aap (From Yes Boss).flac
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Choo Lo Mujhe Tum Kabhi_320(PagalWorld).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Moh Moh Ke Dhaage Male Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Qaafirana Kedarnath 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Kaise Hua Kabir Singh 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/KAise Kahu Main Tumsa Koyi Koyi Na Ha_320(PagalWorld).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Aaoge Jab Tum Jab We Met 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tune-Jo-Na-Kaha-Mohit-Chauhan.m4a
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tu Hai Kahan_320(PagalWorld).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Maiyya Mainu Jersey 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/320kbps_Manmarziyaan 2018 - Daryaa.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Zihaal E Miskin Vishal Mishra 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Tere Mast Mast Do Nain.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/320kbps_Soorma 2018 - Ishq Di Baajiyaan.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Woh Lamhe Zeher 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/02. Badshah - Abhi Toh Party Shuru Hui Hai.flac
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Sham Aisha 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Raabta Agent Vinod 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Alvida_320(PagalWorldl).mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/songs/Kyun Main Jaagoon Patiala House 320 Kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Tu Jaane Na Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Kapoor Katrina Kaif  Pritam_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - The Kid LAROI Justin Bieber  STAY Official Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Full Video Tum Se Hi  Jab We Met  Kareena Kapoor Shahid Kapoor  Mohit Chauhan  Pritam_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Milne Hai Mujhse Aayi Aashiqui 2 Full Video Song  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Pashmina  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Amit Trivedi_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - One Direction  Night Changes_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - She Dont Know Millind Gaba Song  Shabby  New Hindi Song 2019  Latest Hindi Songs_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/Proper Patola - Official Video  Diljit Dosanjh  Badshah.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Sunn Raha Hai Na Tu Aashiqui 2 Full Song With Lyrics  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Chahun Main Ya Naa Full Video Song Aashiqui 2  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Full Video Galliyan Song  Ek Villain  Ankit Tiwari  Sidharth Malhotra  Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Brown Munde  AP Dhillon X Gurinder Gill X Shinda Kahlon X Gminxr  lyrics _320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Glass Animals  Heat Waves Official Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Yeh Fitoor Mera  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Arijit Singh  Amit Trivedi_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Lyrical Video Dildara Song  RaOne  ShahRukh Khan Kareena Kapoor_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - DJ Snake  Let Me Love You ft Justin Bieber Official Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - No Love Official Audio  Shubh  thiarajxtt_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Ae Dil Hai Mushkil Title Track Full Video  Ranbir Anushka AishwaryaArijitPritam_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Imran Khan  Satisfya Official Music Video_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Queen London Thumakda Full Video Song  Kangana Ranaut Raj Kumar Rao_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Diljit Dosanjh  Do You Know_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Kehndi Hundi Si Chan Tak Raah Bana De Official Song AP Dhillon  Gurinder Gill I Shinda Kahlon I_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Brown Rang  Yo Yo Honey Singh Indias No1 Video 2012_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Tera Hone Laga Hoon Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Katrina K  Pritam_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/hindi vibe/tomp3.cc - Surili Akhiyon Wale Video Song  Veer_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/Himouto! Umaru-chan Full OP.mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - __Kaguya-sama_ Love Is War___ Opening Theme (Limited Time Only) (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/op tv size/02.STAY FREE (TVサイズ).mp3
+2026-06-25T16:00:46 update: added Music/Music/op tv size/72.1ミリ Symphony (Movie-size).mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - [Lyrics English_Romaji] Anohana Opening (Tv size)- Aoi Shiori_ Blue Bookmark (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Shigatsu wa Kimi no Uso - Opening 1 - TV size with video (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Silky Heart (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/03. m.o.v.e - Rage Your Dream.mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Adrenaline (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Secret Base Kimi Ga Kureta Mono 10 Years After Ver (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Chiisana Boukensha (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Fukashigi No Carte (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Orange (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Madoromi No Yakusoku (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Vanilla Salt (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Wanna Go Home (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Sacchan No Sexy Curry (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Veil (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/One Piece Ending 1 - Memories.mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Kimi Ga Iru Kara (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Kirameki (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/HUNTING FOR YOUR DREAM (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Zen Zen Zense (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Nandemonaiya (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Kimi Ni Matsuwaru Mystery (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Musubime (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/full ends/Tiny Light (osanime.com).mp3
+2026-06-25T16:00:46 update: added Music/Music/「GIRI GIRI」Kaguya sama op 3 .mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Kaguya-sama_ Love is War Opening - Love Dramatic [TV Broadcast Version_1080p_English CC] (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/Departure.mp3
+2026-06-25T16:00:46 update: added Music/Music/HUNTING FOR YOUR DREAM .mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/07. Symbol - Forever Young.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/01. Dave Rodgers - Space Boy.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/09. Ken Blast - When the Sun Goes Down.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-25T16:00:46 update: added Music/Music/initial d/08. Dave Rodgers - Deja Vu.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/lost into the night.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/09. Max Coveri - Running in the 90's.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/spitfire.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/01. Leslie Parrish - Killing My Love.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/01. Niko - Night of Fire.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/02. Manuel - Gas Gas Gas.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/06. Lou Grant - Don't Stop the Music.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/02. Sara - Burning up for You.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/02. Edo Boys - No One Sleep in Tokyo.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/10. Norma Sheffield - Maybe Tonite.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/09. Dave Simon - I Need Your Love.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/10. Nathalie - Heartbeat.mp3
+2026-06-25T16:00:46 update: added Music/Music/initial d/07. Dr. Love - Don't Stand So Close.mp3
+2026-06-25T16:00:46 update: added Music/Music/GREEN APPLE - インフェルノ（Inferno） (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/Tokyo Revengers opening [Crybaby].mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - UI  KON MUSIC HISTORYS BOX Disc 4  8 of 11_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Imagine_Dragons_JID_Arcane_League_Of_Legends_-_Enemy_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Kali Uchis - All I Can Say.mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Ricky Montgomery - Line Without a Hook.mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Arctic Monkeys - I Wanna Be Yours.mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Taylor_Swift_1989_-_Shake_It_Off_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/League_of_Legends_-_Legends_Never_Die_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Jisoo - Flower (2023).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/Warriors_-imagine_dragons_-_Warriors_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/ChainsmokersVEVO_-_The_Chainsmokers_Coldplay_-_Something_Just_Like_This_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/english/01. RISE.flac
+2026-06-25T16:00:46 update: added Music/Music/english/Post_Malone_Swae_Lee_-_Sunflower_Spider-Man_Into_The_Spider-Verse_(mp3.pm).mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Nagareboshi Kirari - Gon Killua & Retz Version (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - Fuwa Fuwa Time 5nin Ver Fluffy Time 5 people Ver  KON MUSIC HISTORYS BOX Disc 3  4 of 8_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - KON Fuwa Fuwa Time Yui and Mio Duet HD_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - Tenshi ni Fureta yo We touched an Angel  KON MUSIC HISTORYS BOX Disc 4  9 of 11_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Dr Stone;Stone War -Season2- Opening 3 FULL_'_'Rakuen_'_' By Fujifabric [Color Coded LyricsKan_Rom_Eng_] (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/YOASOBI - 夜に駆ける _ Yoru ni Kakeru (Lyric Video).mp3
+2026-06-25T16:00:46 update: added Music/Music/[YT2mp3.info] - Haikyuu!! OP 1 - Imagination Lyrics (320kbps).mp3
+2026-06-25T16:00:46 update: added Music/Music/tomp3.cc - Watashi no Koi wa Hotchkiss My Love is a Stapler  KON MUSIC HISTORYS BOX Disc 3  2 of 8_320kbps.mp3
+2026-06-25T16:00:46 update: added Music/Music/ost/01.憧れの魔法.mp3
+2026-06-25T16:00:46 update: added Music/Music/ost/68.命を賭して信じる魔法 (MM-46～7).mp3
+2026-06-25T16:00:46 update: added Music/Music/ost/20.紅い爆焔の焔.mp3
+2026-06-25T16:00:46 update: added Music/Eminem - Sing For The Moment [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Unravel (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/TOMORROW (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/STAY FREE (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/This Game (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/The WORLD (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/THE DAY (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Suzume (feat. Toaka) - Radwimps  Toaka (320).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Sparkle Original Ver (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Silhouette (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Sign (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Renai Circulation (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Redo (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Realize (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/OVER THE TOP (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/One Day (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Ado - New Genesis (ウタ from ONE PIECE FILM RED).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Zankoku Na Tenshi No Thesis (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Spiral (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/KICK BACK (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Kibou No Uta (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Kawaki Wo Ameku (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/01. Haruka Kanata.mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Hikari E (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Guren No Yumiya (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Masayuki Suzuki - Love Dramatic.mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Fantastic Dreamer (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/DREAMIN Apos ON (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/DADDY DADDY DO Feat Airi Suzuki (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Crossing Field (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Clattanoia (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/BRAND NEW WORLD (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Blue Bird (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Believe (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Ao No Sumika (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Hikaru Nara (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Fukashigi No Carte (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Sacchan No Sexy Curry (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Chiisana Boukensha (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Wanna Go Home (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Nandemonaiya (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Zen Zen Zense (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Tiny Light (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Silky Heart (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Secret Base Kimi Ga Kureta Mono 10 Years After Ver (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Veil (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Orange (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/One Piece Ending 1 - Memories.mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Musubime (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Madoromi No Yakusoku (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Kirameki (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Kimi Ni Matsuwaru Mystery (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Kimi Ga Iru Kara (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/03. m.o.v.e - Rage Your Dream.mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/HUNTING FOR YOUR DREAM (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Vanilla Salt (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full ends/Adrenaline (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/01. RISE.flac
+2026-06-25T16:02:56 update: removing Music/Music/english/Warriors_-imagine_dragons_-_Warriors_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Taylor_Swift_1989_-_Shake_It_Off_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Ricky Montgomery - Line Without a Hook.mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Post_Malone_Swae_Lee_-_Sunflower_Spider-Man_Into_The_Spider-Verse_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/League_of_Legends_-_Legends_Never_Die_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Kali Uchis - All I Can Say.mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Jisoo - Flower (2023).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Imagine_Dragons_JID_Arcane_League_Of_Legends_-_Enemy_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/ChainsmokersVEVO_-_The_Chainsmokers_Coldplay_-_Something_Just_Like_This_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/english/Arctic Monkeys - I Wanna Be Yours.mp3
+2026-06-25T16:02:56 update: removing Music/Kohmi Hirose - promise.ogg
+2026-06-25T16:02:56 update: removing Music/Mariah-Carey---All-I-Want-for-Christmas-Is-You(musicdownload.cc).mp3
+2026-06-25T16:02:56 update: removing Music/Eminem---Without-Me(musicdownload.cc).mp3
+2026-06-25T16:02:56 update: removing Music/Soulmate - Badshah.mp3
+2026-06-25T16:02:56 update: removing Music/02. Dil Mera Churaya Kyun.wav
+2026-06-25T16:02:56 update: removing Music/The Weeknd - Save Your Tears [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/The Black Eyed Peas - Pump It [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Rahat Fateh Ali - Ishq Risk.mp3
+2026-06-25T16:02:56 update: removing Music/Owl City - Fireflies [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/øne directiøn - night changes.mp3
+2026-06-25T16:02:56 update: removing Music/Once Upon a Time in Mumbai Dobaara! - Ye Tune Kya Kiya.mp3
+2026-06-25T16:02:56 update: removing Music/Olivia Rodrigo - Vampire (2023) [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/mya-nee.mp3
+2026-06-25T16:02:56 update: removing Music/Macklemore, Ryan Lewis feat. Wanz - Thrift Shop (feat. Wanz) [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/KK, Shreya Ghoshal - Teri Yaadon Mein.mp3
+2026-06-25T16:02:56 update: removing Music/Imagine Dragons - Warriors [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Harry Styles - As It Was.mp3
+2026-06-25T16:02:56 update: removing Music/Gajendra Verma - Mann Mera.mp3
+2026-06-25T16:02:56 update: removing Music/Eminem feat. Juice WRLD - Godzilla [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Eminem - The Real Slim Shady [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Eminem - Sing For The Moment [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Eminem - Rap God [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Eminem - Mockingbird [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Eminem - Lose Yourself [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/Emenim - Superman.mp3
+2026-06-25T16:02:56 update: removing Music/Doja Cat - Paint The Town Red.mp3
+2026-06-25T16:02:56 update: removing Music/Dj Waley Babu (feat. Aastha Gill).wav
+2026-06-25T16:02:56 update: removing Music/Charlie Puth - Light Switch [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/BTS - Butter.mp3
+2026-06-25T16:02:56 update: removing Music/Atif - Aadat.mp3
+2026-06-25T16:02:56 update: removing Music/Akon feat. Eminem - Smack That [www.slider.kz].mp3
+2026-06-25T16:02:56 update: removing Music/032 sach keh raha hai deewana - 032 sach keh raha hai deewana.mp3
+2026-06-25T16:02:56 update: removing Music/Music/YOASOBI - 夜に駆ける _ Yoru ni Kakeru (Lyric Video).mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - Watashi no Koi wa Hotchkiss My Love is a Stapler  KON MUSIC HISTORYS BOX Disc 3  2 of 8_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - UI  KON MUSIC HISTORYS BOX Disc 4  8 of 11_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - Tenshi ni Fureta yo We touched an Angel  KON MUSIC HISTORYS BOX Disc 4  9 of 11_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - KON Fuwa Fuwa Time Yui and Mio Duet HD_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - Gohan wa Okazu Rice as a Side Dish  KON MUSIC HISTORYS BOX Disc 4  5 of 11_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - Fuwa Fuwa Time 5nin Ver Fluffy Time 5 people Ver  KON MUSIC HISTORYS BOX Disc 3  4 of 8_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/tomp3.cc - Fude Pen Ball Pen Calligraphy Pen Ballpoint Pen  KON MUSIC HISTORYS BOX Disc 3  3 of 8_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/Tokyo Revengers opening [Crybaby].mp3
+2026-06-25T16:02:56 update: removing Music/Music/Mio_Honda_CV._-_Step_(mp3.pm).mp3
+2026-06-25T16:02:56 update: removing Music/Music/K-ON! Fuwa Fuwa Time Yui and Mio Duet HD.mp3
+2026-06-25T16:02:56 update: removing Music/Music/HUNTING FOR YOUR DREAM .mp3
+2026-06-25T16:02:56 update: removing Music/Music/Himouto! Umaru-chan Full OP.mp3
+2026-06-25T16:02:56 update: removing Music/Music/Hi Ni Moeru Hitomi by Kurapika .mp3
+2026-06-25T16:02:56 update: removing Music/Music/GREEN APPLE - インフェルノ（Inferno） (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/Departure.mp3
+2026-06-25T16:02:56 update: removing Music/Music/「GIRI GIRI」Kaguya sama op 3 .mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Shokugeki no Souma OST - Kibou No Uta (Ultra Tower) Vietsub + Kara (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Shigatsu wa Kimi no Uso - Opening 1 - TV size with video (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Nagareboshi Kirari - Gon Killua & Retz Version (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Kaguya-sama_ Love is War Opening - Love Dramatic [TV Broadcast Version_1080p_English CC] (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Hunter x Hunter 2011 Character Songs - Kyousou Requiem by Hisoka Morow [Lyrics] (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Haikyuu!! OP 1 - Imagination Lyrics (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - Dr Stone;Stone War -Season2- Opening 3 FULL_'_'Rakuen_'_' By Fujifabric [Color Coded LyricsKan_Rom_Eng_] (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - [Lyrics English_Romaji] Anohana Opening (Tv size)- Aoi Shiori_ Blue Bookmark (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/[YT2mp3.info] - __Kaguya-sama_ Love Is War___ Opening Theme (Limited Time Only) (320kbps).mp3
+2026-06-25T16:02:56 update: removing Music/Music/-_I_don_t_wanna_get_out_of_futon_(Rilds.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/ost/68.命を賭して信じる魔法 (MM-46～7).mp3
+2026-06-25T16:02:56 update: removing Music/Music/ost/20.紅い爆焔の焔.mp3
+2026-06-25T16:02:56 update: removing Music/Music/ost/01.憧れの魔法.mp3
+2026-06-25T16:02:56 update: removing Music/Music/op tv size/72.1ミリ Symphony (Movie-size).mp3
+2026-06-25T16:02:56 update: removing Music/Music/op tv size/02.STAY FREE (TVサイズ).mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/08. Dave Rodgers - Deja Vu.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/07. Symbol - Forever Young.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/09. Ken Blast - When the Sun Goes Down.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/02. Manuel - Gas Gas Gas.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/10. Nathalie - Heartbeat.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/09. Max Coveri - Running in the 90's.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/06. Lou Grant - Don't Stop the Music.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/02. Edo Boys - No One Sleep in Tokyo.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/01. Dave Rodgers - Space Boy.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/01. Niko - Night of Fire.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/10. Norma Sheffield - Maybe Tonite.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/09. Dave Simon - I Need Your Love.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/07. Dr. Love - Don't Stand So Close.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/02. Sara - Burning up for You.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/01. Leslie Parrish - Killing My Love.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/spitfire.mp3
+2026-06-25T16:02:56 update: removing Music/Music/initial d/lost into the night.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/320kbps_BGMC 2018 - Dekhte Dekhte.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Yeh Fitoor Mera  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Arijit Singh  Amit Trivedi_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Tu Jaane Na Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Kapoor Katrina Kaif  Pritam_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - The Kid LAROI Justin Bieber  STAY Official Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Tere Naina Full Video  My Name is KhanShahrukh KhanKajolShafqat Amanat AliSEL_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Tera Hone Laga Hoon Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Katrina K  Pritam_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Surili Akhiyon Wale Video Song  Veer_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Sunn Raha Hai Na Tu Aashiqui 2 Full Song With Lyrics  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - She Dont Know Millind Gaba Song  Shabby  New Hindi Song 2019  Latest Hindi Songs_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Sajdaa Full Video  My Name is KhanShahrukh KhanKajolRahat Fateh AliRicha Sharma_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Radha  SOTYAlia BhattSidharth MalhotraVarun DhawanUdit NarayanShreya Ghoshal_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Queen London Thumakda Full Video Song  Kangana Ranaut Raj Kumar Rao_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Pashmina  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Amit Trivedi_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - One Direction  Night Changes_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - No Love Official Audio  Shubh  thiarajxtt_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Milne Hai Mujhse Aayi Aashiqui 2 Full Video Song  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Lyrical Video Dildara Song  RaOne  ShahRukh Khan Kareena Kapoor_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Kehndi Hundi Si Chan Tak Raah Bana De Official Song AP Dhillon  Gurinder Gill I Shinda Kahlon I_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Kajra Re  Full Song  Bunty Aur Babli  Aishwarya Abhishek Amitabh Bachchan  ShankarEhsaanLoy_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Justin Bieber  Baby ft Ludacris_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Imran Khan  Satisfya Official Music Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Imran Khan  Amplifier Official Music Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Glass Animals  Heat Waves Official Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Full Video Tum Se Hi  Jab We Met  Kareena Kapoor Shahid Kapoor  Mohit Chauhan  Pritam_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Full Video Galliyan Song  Ek Villain  Ankit Tiwari  Sidharth Malhotra  Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Ed Sheeran  Shape of You Official Music Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - DJ Snake  Let Me Love You ft Justin Bieber Official Video_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Diljit Dosanjh  Do You Know_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Desi Girl Full Video  DostanaJohnAbhishekPriyankaSunidhi Chauhan Vishal Dadlani_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Daku feat Inderpal Moga_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Chahun Main Ya Naa Full Video Song Aashiqui 2  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Brown Rang  Yo Yo Honey Singh Indias No1 Video 2012_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Brown Munde  AP Dhillon X Gurinder Gill X Shinda Kahlon X Gminxr  lyrics _320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Banjaara Full Video Song  Ek Villain  Shraddha Kapoor Siddharth Malhotra_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Bahara Full Video  I Hate Luv StorysSonam Kapoor ImranShreya Ghoshal Sona Mohapatra_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/tomp3.cc - Ae Dil Hai Mushkil Title Track Full Video  Ranbir Anushka AishwaryaArijitPritam_320kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/Proper Patola - Official Video  Diljit Dosanjh  Badshah.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Zihaal E Miskin Vishal Mishra 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Woh Lamhe Zeher 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Afreen-Afreen_320(PaglaSongs).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tu Hai Kahan_320(PagalWorld).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tere-Naina_320(PagalWorldl).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tere-Bin.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Bulleya Sultan 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/320kbps_Soorma 2018 - Ishq Di Baajiyaan.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Saibo Shor In The City Original Motion Picturetrack 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/She Move It Like CD 1 TRACK 1 (FLAC).flac
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Sajdaa_320(PagalWorldl).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tum Ho Toh Rock On 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Rang Jo Lagyo Ramaiya Vastavaiya 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Mora Piya Raajneeti 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Kyun Main Jaagoon Patiala House 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/320kbps_Manmarziyaan 2018 - Daryaa.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/In Dino Life In A Metro 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/05. Ek Din Aap (From Yes Boss).flac
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/01. Baazigar O Baazigar (From Baazigar).flac
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Omeri Laila Laila Majnu 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/02. Badshah - Abhi Toh Party Shuru Hui Hai.flac
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Sweetheart Kedarnath 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Qaafirana Kedarnath 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Sau Aasoon Katti Batti 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Pehla Pyaar - Kabir Singh (2019).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Kaise Hua Kabir Singh 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Maiyya Mainu Jersey 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tum Se Hi Jab We Met 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Aaoge Jab Tum Jab We Met 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/KAise Kahu Main Tumsa Koyi Koyi Na Ha_320(PagalWorld).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Choo Lo Mujhe Tum Kabhi_320(PagalWorld).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Alvida_320(PagalWorldl).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Sadka I Hate Luv Storys 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Yeh Fitoor Mera Arijit Singh 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Pashmeena Fitoor 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Jiyein Kyun Dum Maaro Dum 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Moh Moh Ke Dhaage Male Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Moh Moh Ke Dhaage Female Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Khairiyat Chhichhore 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Kabhi-Kabhi-Aditi-Zindagi_320(PaglaSongs).mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/O Rangrez Bhaag Milkha Bhaag 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Baarishein - Anuv Jain.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tu Jaane Na Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tera Hone Laga Hoon Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Sham Aisha 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Raabta Agent Vinod 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Piya Aaye Na - PagalSongs.com.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Bhula Dena Aashiqui 2 320 Kbps.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Uff Teri Adaa.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tum Jo Aaye.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Dil Kyun Yeh Mera.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tere Mast Mast Do Nain.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tumse Milke.mp3
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/Tune-Jo-Na-Kaha-Mohit-Chauhan.m4a
+2026-06-25T16:02:56 update: removing Music/Music/hindi vibe/songs/The Local Train_ Choo Lo (Home Demo) (320).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Shinzou Wo Sasageyo (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Gurenge (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Netsujou No Spectrum (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Tabibito No Uta (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Koi Wa Explosion (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Kimi No Sei (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Kokoro No Chizu (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Inferno (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Aimer - Zankyosanka.mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/Yasashisa No Riyuu (osanime.com).mp3
+2026-06-25T16:02:56 update: removing Music/Music/full op/We Are (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/[YT2mp3.info] - Hunter x Hunter 2011 Character Songs - Kyousou Requiem by Hisoka Morow [Lyrics] (320kbps).mp3
+[/var/tmp/portage/media-sound/mpg123-base-1.33.3/work/mpg123-1.33.3/src/libmpg123/parse.c:skip_junk():1300] error: Giving up searching valid MPEG header after 65536 bytes of junk.
+2026-06-25T16:03:25 mpg123: mpg123_getformat() failed: A generic mpg123 error.
+2026-06-25T16:03:25 update: added Music/K-ON! Fuwa Fuwa Time Yui and Mio Duet HD.mp3
+2026-06-25T16:03:25 update: added Music/Hi Ni Moeru Hitomi by Kurapika .mp3
+2026-06-25T16:03:25 update: added Music/-_I_don_t_wanna_get_out_of_futon_(Rilds.com).mp3
+2026-06-25T16:03:25 update: added Music/tomp3.cc - Fude Pen Ball Pen Calligraphy Pen Ballpoint Pen  KON MUSIC HISTORYS BOX Disc 3  3 of 8_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/[YT2mp3.info] - Shokugeki no Souma OST - Kibou No Uta (Ultra Tower) Vietsub + Kara (320kbps).mp3
+2026-06-25T16:03:25 update: added Music/full op/THE DAY (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Realize (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Hikari E (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Suzume (feat. Toaka) - Radwimps  Toaka (320).mp3
+2026-06-25T16:03:25 update: added Music/full op/Cry Baby (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Believe (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Mix Nuts (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/ReawakeR (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Renai Circulation (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Netsujou No Spectrum (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Only My Railgun (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Kimi No Sei (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Silhouette (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/DREAMIN Apos ON (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Masayuki Suzuki - Love Dramatic.mp3
+2026-06-25T16:03:25 update: added Music/full op/Kokoro No Chizu (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Clattanoia (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Tabibito No Uta (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Guren No Yumiya (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Redo (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Growing Up (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Ao No Sumika (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/1 Milli Symphony (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Kawaki Wo Ameku (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/BRAND NEW WORLD (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/STAY FREE (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/TOMORROW (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Sparkle Original Ver (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/This Game (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Shinzou Wo Sasageyo (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Gurenge (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/LEveL (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Ado - New Genesis (ウタ from ONE PIECE FILM RED).mp3
+2026-06-25T16:03:25 update: added Music/full op/The WORLD (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Fantastic Dreamer (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Koi Wa Explosion (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/DADDY DADDY DO Feat Airi Suzuki (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Inferno (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/KICK BACK (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/We Are (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/OVER THE TOP (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Kibou No Uta (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/01. Haruka Kanata.mp3
+2026-06-25T16:03:25 update: added Music/full op/Aimer - Zankyosanka.mp3
+2026-06-25T16:03:25 update: added Music/full op/Unravel (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Spiral (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/One Day (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Sign (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Again (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Crossing Field (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Blue Bird (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/UN APEX (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Zankoku Na Tenshi No Thesis (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Hikaru Nara (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/full op/Yasashisa No Riyuu (osanime.com).mp3
+2026-06-25T16:03:25 update: added Music/tomp3.cc - Gohan wa Okazu Rice as a Side Dish  KON MUSIC HISTORYS BOX Disc 4  5 of 11_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/Mio_Honda_CV._-_Step_(mp3.pm).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Kajra Re  Full Song  Bunty Aur Babli  Aishwarya Abhishek Amitabh Bachchan  ShankarEhsaanLoy_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Sajdaa Full Video  My Name is KhanShahrukh KhanKajolRahat Fateh AliRicha Sharma_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Imran Khan  Amplifier Official Music Video_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Banjaara Full Video Song  Ek Villain  Shraddha Kapoor Siddharth Malhotra_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/320kbps_BGMC 2018 - Dekhte Dekhte.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Tere Naina Full Video  My Name is KhanShahrukh KhanKajolShafqat Amanat AliSEL_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Ed Sheeran  Shape of You Official Music Video_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Desi Girl Full Video  DostanaJohnAbhishekPriyankaSunidhi Chauhan Vishal Dadlani_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Bahara Full Video  I Hate Luv StorysSonam Kapoor ImranShreya Ghoshal Sona Mohapatra_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Radha  SOTYAlia BhattSidharth MalhotraVarun DhawanUdit NarayanShreya Ghoshal_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Justin Bieber  Baby ft Ludacris_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/tomp3.cc - Daku feat Inderpal Moga_320kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Sadka I Hate Luv Storys 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tere-Bin.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Uff Teri Adaa.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tu Jaane Na Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Jiyein Kyun Dum Maaro Dum 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Bhula Dena Aashiqui 2 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Kabhi-Kabhi-Aditi-Zindagi_320(PaglaSongs).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tere-Naina_320(PagalWorldl).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Yeh Fitoor Mera Arijit Singh 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Afreen-Afreen_320(PaglaSongs).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tum Ho Toh Rock On 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Sajdaa_320(PagalWorldl).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Piya Aaye Na - PagalSongs.com.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Omeri Laila Laila Majnu 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Sau Aasoon Katti Batti 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Saibo Shor In The City Original Motion Picturetrack 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tum Jo Aaye.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tumse Milke.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Baarishein - Anuv Jain.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Khairiyat Chhichhore 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Dil Kyun Yeh Mera.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/She Move It Like CD 1 TRACK 1 (FLAC).flac
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tum Se Hi Jab We Met 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Tera Hone Laga Hoon Ajab Prem Ki Ghazab Kahani 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/In Dino Life In A Metro 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Rang Jo Lagyo Ramaiya Vastavaiya 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/The Local Train_ Choo Lo (Home Demo) (320).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Pehla Pyaar - Kabir Singh (2019).mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Bulleya Sultan 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Pashmeena Fitoor 320 Kbps.mp3
+2026-06-25T16:03:25 update: added Music/hindi vibe/songs/Sweetheart Kedarnath 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/O Rangrez Bhaag Milkha Bhaag 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Mora Piya Raajneeti 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Moh Moh Ke Dhaage Female Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/01. Baazigar O Baazigar (From Baazigar).flac
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/05. Ek Din Aap (From Yes Boss).flac
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Choo Lo Mujhe Tum Kabhi_320(PagalWorld).mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Moh Moh Ke Dhaage Male Dum Laga Ke Haisha 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Qaafirana Kedarnath 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Kaise Hua Kabir Singh 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/KAise Kahu Main Tumsa Koyi Koyi Na Ha_320(PagalWorld).mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Aaoge Jab Tum Jab We Met 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Tune-Jo-Na-Kaha-Mohit-Chauhan.m4a
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Faheem Abdullah, Rauhan Malik - Ishq [NotSlider.nl].mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Tu Hai Kahan_320(PagalWorld).mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Maiyya Mainu Jersey 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/320kbps_Manmarziyaan 2018 - Daryaa.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Zihaal E Miskin Vishal Mishra 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Tere Mast Mast Do Nain.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/320kbps_Soorma 2018 - Ishq Di Baajiyaan.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Woh Lamhe Zeher 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/02. Badshah - Abhi Toh Party Shuru Hui Hai.flac
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Sham Aisha 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Raabta Agent Vinod 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Gajendra Verma - Mann Mera [NotSlider.nl].mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Alvida_320(PagalWorldl).mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/songs/Kyun Main Jaagoon Patiala House 320 Kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Tu Jaane Na Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Kapoor Katrina Kaif  Pritam_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - The Kid LAROI Justin Bieber  STAY Official Video_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Full Video Tum Se Hi  Jab We Met  Kareena Kapoor Shahid Kapoor  Mohit Chauhan  Pritam_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Milne Hai Mujhse Aayi Aashiqui 2 Full Video Song  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Pashmina  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Amit Trivedi_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - One Direction  Night Changes_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - She Dont Know Millind Gaba Song  Shabby  New Hindi Song 2019  Latest Hindi Songs_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/Proper Patola - Official Video  Diljit Dosanjh  Badshah.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Sunn Raha Hai Na Tu Aashiqui 2 Full Song With Lyrics  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Chahun Main Ya Naa Full Video Song Aashiqui 2  Aditya Roy Kapur Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Full Video Galliyan Song  Ek Villain  Ankit Tiwari  Sidharth Malhotra  Shraddha Kapoor_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Brown Munde  AP Dhillon X Gurinder Gill X Shinda Kahlon X Gminxr  lyrics _320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Glass Animals  Heat Waves Official Video_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Yeh Fitoor Mera  Full Video  Fitoor  Aditya Roy Kapur Katrina Kaif  Arijit Singh  Amit Trivedi_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Lyrical Video Dildara Song  RaOne  ShahRukh Khan Kareena Kapoor_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - DJ Snake  Let Me Love You ft Justin Bieber Official Video_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - No Love Official Audio  Shubh  thiarajxtt_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Ae Dil Hai Mushkil Title Track Full Video  Ranbir Anushka AishwaryaArijitPritam_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Imran Khan  Satisfya Official Music Video_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Queen London Thumakda Full Video Song  Kangana Ranaut Raj Kumar Rao_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Diljit Dosanjh  Do You Know_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Kehndi Hundi Si Chan Tak Raah Bana De Official Song AP Dhillon  Gurinder Gill I Shinda Kahlon I_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Brown Rang  Yo Yo Honey Singh Indias No1 Video 2012_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Tera Hone Laga Hoon Lyrical  Ajab Prem Ki Ghazab Kahani  Atif Aslam  Ranbir Katrina K  Pritam_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/hindi vibe/tomp3.cc - Surili Akhiyon Wale Video Song  Veer_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/Himouto! Umaru-chan Full OP.mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - __Kaguya-sama_ Love Is War___ Opening Theme (Limited Time Only) (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/SOUVENIR (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/op tv size/02.STAY FREE (TVサイズ).mp3
+2026-06-25T16:03:26 update: added Music/op tv size/72.1ミリ Symphony (Movie-size).mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - [Lyrics English_Romaji] Anohana Opening (Tv size)- Aoi Shiori_ Blue Bookmark (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - Shigatsu wa Kimi no Uso - Opening 1 - TV size with video (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Silky Heart (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/03. m.o.v.e - Rage Your Dream.mp3
+2026-06-25T16:03:26 update: added Music/full ends/Adrenaline (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Secret Base Kimi Ga Kureta Mono 10 Years After Ver (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Ano Hi No Mama No Bokura (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Chiisana Boukensha (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Fukashigi No Carte (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Orange (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Madoromi No Yakusoku (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Vanilla Salt (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Wanna Go Home (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Sacchan No Sexy Curry (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Veil (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/One Piece Ending 1 - Memories.mp3
+2026-06-25T16:03:26 update: added Music/full ends/Kimi Ga Iru Kara (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Kirameki (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/HUNTING FOR YOUR DREAM (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Kigeki (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Zen Zen Zense (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Nandemonaiya (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Kimi Ni Matsuwaru Mystery (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Musubime (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/JUMP IN (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/full ends/Tiny Light (osanime.com).mp3
+2026-06-25T16:03:26 update: added Music/「GIRI GIRI」Kaguya sama op 3 .mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - Kaguya-sama_ Love is War Opening - Love Dramatic [TV Broadcast Version_1080p_English CC] (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/Departure.mp3
+2026-06-25T16:03:26 update: added Music/HUNTING FOR YOUR DREAM .mp3
+2026-06-25T16:03:26 update: added Music/initial d/07. Symbol - Forever Young.mp3
+2026-06-25T16:03:26 update: added Music/initial d/01. Dave Rodgers - Space Boy.mp3
+2026-06-25T16:03:26 update: added Music/initial d/09. Ken Blast - When the Sun Goes Down.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-25T16:03:26 update: added Music/initial d/08. Dave Rodgers - Deja Vu.mp3
+2026-06-25T16:03:26 update: added Music/initial d/lost into the night.mp3
+2026-06-25T16:03:26 update: added Music/initial d/09. Max Coveri - Running in the 90's.mp3
+2026-06-25T16:03:26 update: added Music/initial d/spitfire.mp3
+2026-06-25T16:03:26 update: added Music/initial d/01. Leslie Parrish - Killing My Love.mp3
+2026-06-25T16:03:26 update: added Music/initial d/01. Niko - Night of Fire.mp3
+2026-06-25T16:03:26 update: added Music/initial d/02. Manuel - Gas Gas Gas.mp3
+2026-06-25T16:03:26 update: added Music/initial d/06. Lou Grant - Don't Stop the Music.mp3
+2026-06-25T16:03:26 update: added Music/initial d/02. Sara - Burning up for You.mp3
+2026-06-25T16:03:26 update: added Music/initial d/02. Edo Boys - No One Sleep in Tokyo.mp3
+2026-06-25T16:03:26 update: added Music/initial d/10. Norma Sheffield - Maybe Tonite.mp3
+2026-06-25T16:03:26 update: added Music/initial d/09. Dave Simon - I Need Your Love.mp3
+2026-06-25T16:03:26 update: added Music/initial d/10. Nathalie - Heartbeat.mp3
+2026-06-25T16:03:26 update: added Music/initial d/07. Dr. Love - Don't Stand So Close.mp3
+2026-06-25T16:03:26 update: added Music/GREEN APPLE - インフェルノ（Inferno） (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/tomp3.cc - UI  KON MUSIC HISTORYS BOX Disc 4  8 of 11_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/english/Imagine_Dragons_JID_Arcane_League_Of_Legends_-_Enemy_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/english/Kali Uchis - All I Can Say.mp3
+2026-06-25T16:03:26 update: added Music/english/Ricky Montgomery - Line Without a Hook.mp3
+2026-06-25T16:03:26 update: added Music/english/Arctic Monkeys - I Wanna Be Yours.mp3
+2026-06-25T16:03:26 update: added Music/english/Taylor_Swift_1989_-_Shake_It_Off_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/english/League_of_Legends_-_Legends_Never_Die_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/english/Jisoo - Flower (2023).mp3
+2026-06-25T16:03:26 update: added Music/english/Warriors_-imagine_dragons_-_Warriors_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/english/ChainsmokersVEVO_-_The_Chainsmokers_Coldplay_-_Something_Just_Like_This_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/english/01. RISE.flac
+2026-06-25T16:03:26 update: added Music/english/Post_Malone_Swae_Lee_-_Sunflower_Spider-Man_Into_The_Spider-Verse_(mp3.pm).mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - Nagareboshi Kirari - Gon Killua & Retz Version (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/tomp3.cc - Fuwa Fuwa Time 5nin Ver Fluffy Time 5 people Ver  KON MUSIC HISTORYS BOX Disc 3  4 of 8_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/tomp3.cc - KON Fuwa Fuwa Time Yui and Mio Duet HD_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/tomp3.cc - Tenshi ni Fureta yo We touched an Angel  KON MUSIC HISTORYS BOX Disc 4  9 of 11_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - Dr Stone;Stone War -Season2- Opening 3 FULL_'_'Rakuen_'_' By Fujifabric [Color Coded LyricsKan_Rom_Eng_] (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/YOASOBI - 夜に駆ける _ Yoru ni Kakeru (Lyric Video).mp3
+2026-06-25T16:03:26 update: added Music/[YT2mp3.info] - Haikyuu!! OP 1 - Imagination Lyrics (320kbps).mp3
+2026-06-25T16:03:26 update: added Music/tomp3.cc - Watashi no Koi wa Hotchkiss My Love is a Stapler  KON MUSIC HISTORYS BOX Disc 3  2 of 8_320kbps.mp3
+2026-06-25T16:03:26 update: added Music/heh/mya-nee.mp3
+2026-06-25T16:03:26 update: added Music/ost/01.憧れの魔法.mp3
+2026-06-25T16:03:26 update: added Music/ost/68.命を賭して信じる魔法 (MM-46～7).mp3
+2026-06-25T16:03:26 update: added Music/ost/20.紅い爆焔の焔.mp3
+2026-06-25T16:09:51 player: played "Music/full ends/Orange (osanime.com).mp3"
+2026-06-25T16:15:18 player: played "Music/full ends/Adrenaline (osanime.com).mp3"
+2026-06-25T16:20:03 player: played "Music/full ends/Ano Hi No Mama No Bokura (osanime.com).mp3"
+2026-06-25T16:23:36 player: played "Music/full ends/Wanna Go Home (osanime.com).mp3"
+2026-06-25T16:31:51 player: played "Music/full ends/Veil (osanime.com).mp3"
+2026-06-25T16:35:14 player: played "Music/full ends/Sacchan No Sexy Curry (osanime.com).mp3"
+2026-06-25T16:39:58 player: played "Music/full op/One Day (osanime.com).mp3"
+2026-06-25T18:17:20 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2026-06-25T18:21:33 player: played "Music/-_I_don_t_wanna_get_out_of_futon_(Rilds.com).mp3"
+2026-06-25T18:29:21 player: played "Music/tomp3.cc - UI  KON MUSIC HISTORYS BOX Disc 4  8 of 11_320kbps.mp3"
+2026-06-25T18:33:45 player: played "Music/tomp3.cc - Watashi no Koi wa Hotchkiss My Love is a Stapler  KON MUSIC HISTORYS BOX Disc 3  2 of 8_320kbps.mp3"
+2026-06-25T18:38:26 player: played "Music/YOASOBI - 夜に駆ける _ Yoru ni Kakeru (Lyric Video).mp3"
+2026-06-25T18:42:50 player: played "Music/SOUVENIR (osanime.com).mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-25T18:49:45 player: played "Music/initial d/07. Symbol - Forever Young.mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2026-06-25T18:54:08 player: played "Music/initial d/08. Dave Rodgers - Deja Vu.mp3"
+2026-06-25T18:55:40 player: played "Music/op tv size/02.STAY FREE (TVサイズ).mp3"
+2026-06-25T18:57:11 player: played "Music/op tv size/72.1ミリ Symphony (Movie-size).mp3"
+2026-06-25T19:01:03 player: played "Music/english/League_of_Legends_-_Legends_Never_Die_(mp3.pm).mp3"
+2026-06-25T19:03:41 player: played "Music/english/Post_Malone_Swae_Lee_-_Sunflower_Spider-Man_Into_The_Spider-Verse_(mp3.pm).mp3"
+2026-06-25T19:07:50 player: played "Music/english/Ricky Montgomery - Line Without a Hook.mp3"
+2026-06-25T19:11:51 player: played "Music/english/Taylor_Swift_1989_-_Shake_It_Off_(mp3.pm).mp3"
+2026-06-25T19:14:50 player: played "Music/english/Warriors_-imagine_dragons_-_Warriors_(mp3.pm).mp3"
+2026-06-25T19:18:03 player: played "Music/english/01. RISE.flac"
+2026-06-25T19:58:09 player: played "Music/full ends/Adrenaline (osanime.com).mp3"
+2026-06-25T20:03:11 player: played "Music/full ends/Vanilla Salt (osanime.com).mp3"
+2026-06-25T20:05:13 player: played "Music/full ends/HUNTING FOR YOUR DREAM (osanime.com).mp3"
+2026-06-25T20:08:06 player: played "Music/english/Jisoo - Flower (2023).mp3"
+2026-06-25T20:11:02 player: played "Music/english/Jisoo - Flower (2023).mp3"
+2026-06-25T20:12:31 player: played "Music/english/ChainsmokersVEVO_-_The_Chainsmokers_Coldplay_-_Something_Just_Like_This_(mp3.pm).mp3"
+2026-06-25T20:12:35 player: played "Music/full ends/Vanilla Salt (osanime.com).mp3"
+2026-06-25T20:12:36 player: played "Music/full ends/Zen Zen Zense (osanime.com).mp3"
+2026-06-25T20:12:44 player: played "Music/full ends/Tiny Light (osanime.com).mp3"
+2026-06-25T20:16:06 player: played "Music/full ends/Sacchan No Sexy Curry (osanime.com).mp3"
+2026-06-25T20:20:05 player: played "Music/full ends/Fukashigi No Carte (osanime.com).mp3"

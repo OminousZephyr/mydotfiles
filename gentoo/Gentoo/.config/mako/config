@@ -1,0 +1,54 @@
+# ─────────────────────────────
+# POSITION
+# ─────────────────────────────
+anchor=top-right
+margin=14
+outer-margin=12
+
+# ─────────────────────────────
+# SIZE (readable, modern)
+# ─────────────────────────────
+width=360
+max-visible=5
+
+# ─────────────────────────────
+# TYPOGRAPHY
+# ─────────────────────────────
+font=Cascadia Code 13, Noto Color Emoji 13
+text-color=#2b1d1a
+
+# ─────────────────────────────
+# COLORS (warm peach / rose theme)
+# ─────────────────────────────
+background-color=#fff1ecf2
+border-color=#e89a8f
+progress-color=#e89a8f
+
+# ─────────────────────────────
+# STYLE
+# ─────────────────────────────
+border-size=2
+border-radius=14
+padding=14
+
+# ─────────────────────────────
+# BEHAVIOR
+# ─────────────────────────────
+default-timeout=4500
+ignore-timeout=0
+layer=overlay
+
+# ─────────────────────────────
+# URGENCY STYLES
+# ─────────────────────────────
+
+[urgency=low]
+border-color=#f2b8a0
+text-color=#3a2a26
+
+[urgency=normal]
+border-color=#e89a8f
+
+[urgency=critical]
+border-color=#d65f5f
+default-timeout=0

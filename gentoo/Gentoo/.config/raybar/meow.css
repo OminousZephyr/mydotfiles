@@ -1,0 +1,41 @@
+@define-color blue #7DF9FF;
+@define-color orange #FF7A2F;
+@define-color peach #FF8C8C;
+@define-color white #E6E6E6;
+
+/* Neon blue glow */
+@define-color blue-1 rgba(125, 249, 255, 0.9);
+@define-color blue-2 rgba(125, 249, 255, 0.6);
+@define-color blue-3 rgba(125, 249, 255, 0.3);
+
+@define-color orange-1 rgba(255, 122, 47, 0.9);
+@define-color orange-2 rgba(255, 122, 47, 0.6);
+@define-color orange-3 rgba(255, 122, 47, 0.3);
+
+/* Backgrounds (30% opacity) */
+@define-color bg1 rgba(5, 8, 22, 0.3);
+@define-color bg2 rgba(10, 16, 32, 0.3);
+@define-color bg3 rgba(16, 23, 43, 0.3);
+
+/* Text */
+@define-color text #E6E6E6;
+@define-color text-secondary #B8C2D1;
+@define-color text-muted #7A8496;
+
+/* Extra accents */
+@define-color purple #B388FF;
+@define-color lavender #D8B4FE;
+@define-color mint #7CFFB2;
+@define-color gold #FFC857;
+@define-color red #FF6B6B;
+
+/* Glow versions */
+@define-color purple-glow rgba(179, 136, 255, 0.35);
+@define-color mint-glow rgba(124, 255, 178, 0.35);
+@define-color gold-glow rgba(255, 200, 87, 0.35);
+@define-color peach-glow rgba(255, 140, 140, 0.8);
+
+/* Borders */
+@define-color border rgba(125, 249, 255, 0.08);
+@define-color border-hover rgba(125, 249, 255, 0.16);
+@define-color border-active rgba(125, 249, 255, 0.24);
