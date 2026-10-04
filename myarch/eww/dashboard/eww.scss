@@ -1,0 +1,460 @@
+// ===============================
+// Rose Pine Aurora Dark Palette
+// ===============================
+
+// ---- Deep Backgrounds ----
+
+$void:          #0f0d16;
+$base:          #191724;
+$midnight:      #211f2d;
+$surface:       #26233a;
+$panel:         #2a273f;
+$overlay:       #332e46;
+$border:        #403852;
+
+// ---- Neutral Text ----
+$white:         #f7f5ff;
+$text:          #e8e4f5;
+$soft-text:     #c9c3dc;
+$subtext:       #9893a5;
+$disabled:      #6e6a86;
+
+// ---- Rose / Berry Family ----
+$rose:          #eb6f92;
+$cherry:        #d85f7a;
+$berry:         #b84f74;
+$wine:          #8f3f62;
+$magenta:       #d35ca5;
+$orchid:        #c084d8;
+
+// ---- Purple / Cosmic Family ----
+$iris:          #c4a7e7;
+$violet:        #9b87d8;
+$amethyst:      #8067b7;
+$cosmic:        #6955a8;
+$nebula:        #514575;
+
+// ---- Blue / Ocean Family ----
+$foam:          #9ccfd8;
+$sky:           #89dceb;
+$ocean:         #4aa8c4;
+$deep-sea:      #277c98;
+$indigo:        #5865c9;
+$electric-blue: #6ca8ff;
+
+// ---- Green / Forest Family ----
+$mint:          #9ee7c2;
+$jade:          #5ec49b;
+$emerald:       #3fa878;
+$forest:        #28765c;
+$moss:          #7c9b62;
+
+// ---- Yellow / Gold Family ----
+$gold:          #f6c177;
+$amber:         #e9a84f;
+$honey:         #d8903d;
+$bronze:        #a9652a;
+$olive:         #a8a45a;
+
+// ---- Orange / Fire Family ----
+$peach:         #ffb38a;
+$coral:         #f1847a;
+$terracotta:    #c96b55;
+$copper:        #a9573b;
+
+// ---- Accent Utility ----
+$error:         #ef6b73;
+$warning:       #f6c177;
+$success:       #7bd88f;
+$info:          #74c7ec;
+
+$shadow-purple: #15121f;
+$shadow-blue:   #111824;
+
+
+/** Global *******************************************/
+*{
+	all: unset;
+	font-family: feather;
+	font-family: Iosevka;
+}
+
+/** Background ***************************************/
+.bg {
+	background-image: url("images/bg.png");
+	background-color: $midnight;
+	opacity: 1;
+}
+
+/** Generic window ***********************************/
+.genwin,
+.systemwin{
+	background-color: $midnight;
+	border-radius: 16px;
+}
+
+/** Profile ******************************************/
+.face {
+	background-size: 200px;
+	min-height: 200px;
+	min-width: 200px;
+	margin: 65px 0px 0px 0px;
+	border-radius: 100%;
+}
+
+.fullname {
+	color: $rose;
+	font-size : 34px;
+	font-weight : bold;
+}
+
+.username {
+	color: $moss;
+	font-size : 25px;
+	font-weight : bold;
+	margin : -15px 0px 0px 0px;
+}
+
+/** System ********************************************/
+
+.systemwin {
+    min-width: 350px;
+    min-height: 350px;
+}
+
+.cpu_circle,
+.mem_circle,
+.bright_circle,
+.bat_circle {
+    background-color: $panel;
+    border-radius: 20px;
+}
+
+.iconmem {
+  padding-right: 15px;
+}
+
+.iconcpu,
+.iconmem,
+.iconbright,
+.iconbat {
+    font-size: 32px;
+}
+
+.cpu_circle,
+.iconcpu {
+  color: $jade;
+}
+
+.mem_circle,
+.iconmen {
+  color: $amber;
+}
+
+.bright_circle,
+.iconbright {
+  color: $berry;
+}
+
+.bat_circle,
+.iconbat {
+  color: $amethyst;
+}
+/** Clock ********************************************/
+.time_hour, .time_min {
+	color: $foam;
+	font-size : 70px;
+	font-weight : bold;
+}
+.time_hour {
+	margin : 15px 0px 0px 20px;
+}
+.time_min {
+	margin : 0px 0px 10px 0px;
+}
+
+.time_mer {
+	color: $mint;
+	font-size : 40px;
+	font-weight : bold;
+	margin : 20px 20px 0px 0px;
+}
+
+.time_day {
+	color: $amber;
+	font-size : 30px;
+	font-weight : normal;
+	margin : 0px 0px 20px -30px;
+}
+
+/** Uptime ********************************************/
+.icontimer {
+	color: $orchid;
+	font-size : 100px;
+	font-weight : normal;
+}
+
+.uphour {
+	color: $mint;
+	font-size : 42px;
+	font-weight : bold;
+}
+
+.upmin {
+	color: $peach;
+	font-size : 32px;
+	font-weight : bold;
+}
+
+/** Music ***************************************/
+.album_art {
+	background-size: 240px;
+	min-height: 240px;
+	min-width: 240px;
+	margin: 20px;
+	border-radius: 14px;
+}
+
+.song {
+	color: $foam;
+	font-size : 25px;
+	font-weight : bold;
+	margin : 40px 0px 0px 0px;
+}
+
+.artist {
+	color: $coral;
+	font-size : 20px;
+	font-weight : normal;
+	margin : 0px 0px 0px 0px;
+}
+
+.btn_prev, .btn_play, .btn_next {
+	font-family: Iosevka Nerd Font;
+}
+.btn_prev {
+	color: $honey;
+	font-size : 44px;
+	font-weight : normal;
+}
+.btn_play {
+	color: $iris;
+	font-size : 60px;
+	font-weight : bold;
+}
+.btn_next {
+	color: $honey;
+	font-size : 44px;
+	font-weight : normal;
+}
+
+.music_bar scale trough highlight {
+	all: unset;
+	background-color: $orchid;
+	border-radius: 8px;
+}
+.music_bar scale trough {
+	all: unset;
+	background-color: $overlay;
+	border-radius: 8px;
+	min-height: 20px;
+	min-width: 310px;
+	margin : 0px 0px 0px 0px;
+}
+
+/** Weather ***************************************/
+.iconweather {
+	font-family: Iosevka Nerd Font;
+	font-size : 120px;
+	font-weight : normal;
+	margin : 15px 0px 0px 30px;
+}
+
+.label_city {
+  color: $gold;
+  font-family: "Iosevka", "JetBrains Mono", "JetBrainsMono Nerd";
+  font-size: 25px;
+  margin-right: -20px;
+}
+
+.label_temp {
+	color : $foam;
+	font-size : 80px;
+	font-weight : bold;
+	margin : -30px 30px 0px 0px;
+}
+
+.label_stat {
+	color : $rose;
+	font-size : 38px;
+	font-weight : bold;
+}
+
+.label_quote {
+	color : $soft-text;
+	font-size : 20px;
+	font-weight : normal;
+}
+
+/** Applications ***************************************/
+.appbox {
+	margin : 15px 0px 0px 25px;
+}
+
+.app_fox, .app_telegram, .app_discord, .app_terminal,
+.app_files, .app_geany, .app_code, .app_gimp, .app_vbox {
+    background-repeat: no-repeat;
+	background-size: 64px;
+	min-height: 64px;
+	min-width: 64px;
+	margin: 8px 8px 0px 8px;
+}
+
+.app_fox {}
+.app_telegram {}
+.app_discord {}
+.app_terminal {}
+.app_files {}
+.app_geany {}
+.app_code {}
+.app_gimp {}
+.app_vbox {}
+
+/** Links ***************************************/
+.iconweb, .iconmail {
+	color: #FFFFFF;
+	font-family: Iosevka Nerd Font;
+	font-size : 70px;
+	font-weight : normal;
+}
+.iconmail {
+	color: #DF584E;
+}
+
+.github {
+	background-color: #24292E;
+	border-radius: 16px;
+}
+.reddit {
+	background-color: #E46231;
+	border-radius: 16px;
+}
+.twitter {
+	background-color: #61AAD6;
+	border-radius: 16px;
+}
+.youtube {
+	background-color: #DF584E;
+	border-radius: 16px;
+}
+.mail {
+	background-color: #FFFFFF;
+	border-radius: 16px;
+}
+
+.mailbox {
+	background-color: #E5E5E5;
+	border-radius: 10px;
+	margin: 48px 0px 48px 0px;
+}
+.label_mails {
+	color: #404040;
+	font-size : 32px;
+	font-weight : bold;
+	margin: 0px 12px 0px 12px;
+}
+
+/** Power buttons ***************************************/
+.btn_logout, .btn_sleep, .btn_reboot, .btn_poweroff {
+	font-size : 48px;
+	font-weight : bold;
+}
+
+.btn_logout {
+	color: $info;
+}
+.btn_sleep {
+	color: $warning;
+}
+.btn_reboot {
+	color: $success;
+}
+.btn_poweroff {
+	color: $error;
+}
+
+/** Home folders ***************************************/
+.hddbox {
+	background-color: $panel;
+	border-radius: 10px;
+	margin : 15px;
+}
+.hddicon {
+	color: $foam;
+	font-family: Iosevka Nerd Font;
+	font-size : 70px;
+	font-weight : normal;
+	margin : 25px 10px 25px 27px;
+}
+.hdd_label {
+	color: $text;
+	font-size : 48px;
+	font-weight : bold;
+	margin : 0px 0px 0px 15px;
+}
+.fs_sep {
+	color: $disabled;
+	font-size : 36px;
+	font-weight : bold;
+}
+
+.iconfolder1, .iconfolder2, .iconfolder3, .iconfolder4, .iconfolder5, .iconfolder6  {
+	font-family: Iosevka Nerd Font;
+	font-size : 40px;
+	font-weight : normal;
+	margin : 0px 0px 0px 60px;
+}
+.iconfolder1 {
+	color: $rose;
+}
+.iconfolder2 {
+	color: $jade;
+}
+.iconfolder3 {
+	color: $gold;
+}
+.iconfolder4 {
+	color: $ocean;
+}
+.iconfolder5 {
+	color: $orchid;
+}
+.iconfolder6 {
+	color: $coral;
+}
+
+.label_folder1, .label_folder2, .label_folder3, .label_folder4, .label_folder5, .label_folder6  {
+	font-size : 22px;
+	font-weight : normal;
+	margin : 0px 0px 0px 30px;
+}
+.label_folder1 {
+	color: $rose;
+}
+.label_folder2 {
+	color: $jade;
+}
+.label_folder3 {
+	color: $gold;
+}
+.label_folder4 {
+	color: $ocean;
+}
+.label_folder5 {
+	color: $orchid;
+}
+.label_folder6 {
+	color: $coral;
+}
+
+/** EOF *************************************************/

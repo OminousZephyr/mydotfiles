@@ -1,0 +1,52 @@
+#!/bin/sh
+
+render() {
+    output='(box :class "works" :orientation "v" :halign "center" :valign "start" :space-evenly "false" :spacing "-5"'
+
+
+    while read -r line; do
+
+    ws=$(echo "$line" | sed 's/\*//' | awk '{print $1}')
+
+    [ -z "$ws" ] && continue
+
+    if echo "$line" | grep -q '\*'; then
+        class="workspace active"
+    else
+        class="workspace"
+    fi
+
+    case "$ws" in
+    1) icon="" ;;   
+    2) icon="" ;;   
+    3) icon="" ;;   
+    4) icon="" ;;   
+    5) icon="" ;;   
+    6) icon="󰖔" ;;   
+    7) icon="󰀘" ;;
+    8) icon="󰈸" ;;
+    9) icon="󰊠" ;;
+    10) icon="" ;;
+    11) icon="󰛨" ;;
+    *) icon="$ws" ;;
+esac
+
+    output="$output (button :class \"$class\" :onclick \"niri msg action focus-workspace $ws\" \"$icon\")"
+
+done <<EOF
+$(niri msg workspaces | awk '/^[[:space:]]+\*?[[:space:]]*[0-9]+/ {print}')
+EOF
+
+    output="$output)"
+    echo "$output"
+}
+
+render
+
+niri msg event-stream | while read -r line; do
+    case "$line" in
+	    "Workspaces changed"*|"Workspace focused"*|"Window focus changed"*)
+            render
+            ;;
+    esac
+done

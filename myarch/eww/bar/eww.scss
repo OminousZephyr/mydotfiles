@@ -1,0 +1,255 @@
+/* Created   by https://github.com/rxyhn 
+   Designed  by https://github.com/rxyhn
+   Maintaned by https://github.com/rxyhn
+*/
+
+// ===============================
+// Rose Pine Aurora Dark Palette
+// ===============================
+
+// ---- Deep Backgrounds ----
+
+$void:          #0f0d16;
+$base:          #191724;
+$midnight:      #211f2d;
+$surface:       #26233a;
+$panel:         #2a273f;
+$overlay:       #332e46;
+$border:        #403852;
+
+// ---- Neutral Text ----
+$white:         #f7f5ff;
+$text:          #e8e4f5;
+$soft-text:     #c9c3dc;
+$subtext:       #9893a5;
+$disabled:      #6e6a86;
+
+// ---- Rose / Berry Family ----
+$rose:          #eb6f92;
+$cherry:        #d85f7a;
+$berry:         #b84f74;
+$wine:          #8f3f62;
+$magenta:       #d35ca5;
+$orchid:        #c084d8;
+
+// ---- Purple / Cosmic Family ----
+$iris:          #c4a7e7;
+$violet:        #9b87d8;
+$amethyst:      #8067b7;
+$cosmic:        #6955a8;
+$nebula:        #514575;
+
+// ---- Blue / Ocean Family ----
+$foam:          #9ccfd8;
+$sky:           #89dceb;
+$ocean:         #4aa8c4;
+$deep-sea:      #277c98;
+$indigo:        #5865c9;
+$electric-blue: #6ca8ff;
+
+// ---- Green / Forest Family ----
+$mint:          #9ee7c2;
+$jade:          #5ec49b;
+$emerald:       #3fa878;
+$forest:        #28765c;
+$moss:          #7c9b62;
+
+// ---- Yellow / Gold Family ----
+$gold:          #f6c177;
+$amber:         #e9a84f;
+$honey:         #d8903d;
+$bronze:        #a9652a;
+$olive:         #a8a45a;
+
+// ---- Orange / Fire Family ----
+$peach:         #ffb38a;
+$coral:         #f1847a;
+$terracotta:    #c96b55;
+$copper:        #a9573b;
+
+// ---- Accent Utility ----
+$error:         #ef6b73;
+$warning:       #f6c177;
+$success:       #7bd88f;
+$info:          #74c7ec;
+
+$shadow-purple: #15121f;
+$shadow-blue:   #111824;
+
+// Global
+*{ 
+   all:unset; 
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+}
+
+// EWW BAR
+
+.eww_bar {
+  background-color: $base;
+  border-radius: 0 20px 20px 0;
+  border-right: 2px solid $berry;
+  padding: .3rem;
+}
+
+// Launcher
+.launcher_icon{
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+    color: $ocean;
+
+    font-size: 48px;
+    padding: 5px 0 10px 0;
+}
+
+// Niri Workspaces
+
+.works {
+    font-family: "JetBrainsMono Nerd Font Mono";
+    padding: .2rem .7rem;
+    background-color: $surface;
+    border-radius: 8px;
+}
+
+.workspace {
+    color: $cosmic;
+    margin: .25rem 0;
+    font-size: 1.7em;
+}
+
+.workspace.active {
+    color: $jade;
+    font-size: 2.2em;
+}
+
+// Control Panel
+.control {
+padding: .5rem;
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+font-size: 1.6em;
+background-color: $surface;
+border-radius: 8px;
+}
+
+.bat{ 
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+  font-size: 20px;
+  margin-bottom: 1rem;
+  padding-right: 7px;
+  color: $ocean;
+}
+
+.wifi-icon{
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+  font-size: 30px;
+  color: $berry;
+}
+.brightness-icon{
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+  color: $amber;
+  font-size: 30px;
+}
+.volume-icon{
+    font-family: "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font Mono", "Iosevka Nerd Font Mono";
+  color: $emerald;
+  font-size: 30px;
+}
+scale trough {
+  all: unset;
+  background-color: $void;
+  border-radius: 5px;
+  min-height: 80px;
+  min-width: 10px;
+  margin: .2rem 0 .2rem 0;
+}
+
+.bribar trough highlight {
+  background-color: $gold;
+  border-radius: 5px;
+}
+.volbar trough highlight {
+  background-color: $emerald;
+  border-radius: 5px;
+}
+
+// Clock
+.time {
+  font-family: Comic Mono;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: $surface;
+  color: $iris;
+  border-radius: 8px;
+  padding: .7rem 0 .5rem 0;
+  margin: .5rem 0 .5rem 0;
+}
+
+.time-day {
+  color: $rose;
+}
+// Calendar
+.cal-box {
+  background-color: $midnight;
+  font-family: "JetBrainsMono Nerd Font", "Iosevka";
+  font-size: 20px;
+  border-radius: 20px;
+
+  .cal-inner-box {
+      padding: 1rem 1rem .2rem;
+      border-radius: 25px;
+      .cal {
+          &.highlight {
+              padding: 10rem;
+          }
+          padding: .8rem .25rem 0rem;
+          margin-left: 10px;
+      }
+  }
+}
+
+calendar:selected {
+  color: $rose;
+}
+
+calendar.header {
+color: $gold;
+font-weight: bold;
+}
+
+calendar.button {
+color: $honey;
+}
+
+calendar.highlight {
+color: $ocean;
+font-weight: bold;
+}
+
+calendar:indeterminate {
+color: $disabled;
+}
+
+// Powermenu
+.powermenu {
+  font-family: feather;
+  font-size: 25px;
+  font-weight: bold;
+}
+.button-bspres, .button-reb, .button-lock,
+.button-quit, .button-off{
+  padding: .5rem .2rem .3rem .2rem;
+}
+.button-off{
+  margin-bottom: .5rem;
+  color: $error;
+}
+.button-bspres{
+  color: $forest;
+}
+.button-reb{
+  color: $info;
+}
+.button-quit{
+  color: $success;
+}
+.button-lock{
+  color: $peach;
+}

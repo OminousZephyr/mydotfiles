@@ -1,0 +1,108 @@
+{	
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["niri/workspaces", "mpd"],
+  "modules-center": [
+        "clock",
+        "pulseaudio",
+        "network",
+        "battery"
+        ],
+  "modules-right":[
+	"cpu", "memory"],
+												
+ "niri/workspaces": {
+    "format": "{icon}",
+
+    "format-icons": {
+        "1": "󰥟",
+        "2": "",
+        "3": "󰈹",
+        "4": "",
+        "5": "",
+        "6": "c",
+        "7": "c",
+        "8": "c",
+        "9": "c",
+        "10": "c"
+    }
+},
+		"mpd": {
+    "server": "127.0.0.1",
+    "port": 6600,
+    "interval": 5,
+    "timeout" : 30,
+    "unknown-tag": "N/A",
+    "format": "{stateIcon} {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+    "format-disconnected": " Disconnected",
+    "format-stopped": " Stopped",
+    "state-icons": {
+        "paused": "",
+        "playing": ""
+    },
+    // Actions when you click or scroll on the Waybar module
+    "on-click": "foot -e rmpc",
+    "on-click-right": "mpc stop",
+    "on-scroll-up": "mpc next",
+    "on-scroll-down": "mpc prev"
+},
+        	"clock": {
+		"format": "{:%d %b | %H:%M}",
+		"tooltip": "true",
+        	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        	"format-alt": "   {:%d/%m}"
+	},
+
+	"battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format":"{icon}   {capacity}%", "format-charging": "{capacity}% 󰂄", 
+        "format-plugged": "{capacity}% ", "format-alt": "{icon} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""]
+	},
+
+	"memory": {
+		"interval": 5,
+		"format": " {}%",
+		"on-click": "process_viewer",
+		"on-click-right": "foot btop"
+	},
+
+  	"cpu": {
+		"interval": 5,
+		"format": "  {usage:2}%",
+		"on-click": "process_viewer",
+		"on-click-right": "foot btop"
+	},
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [" ", " " ]
+    },
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol"
+  },
+
+"network": {
+        	"format-wifi": "{essid}  󰤨",
+        	"format-ethernet": "󰈀 ",
+        	"format-linked": " {ifname} (No IP)",
+        	"format-disconnected": "󰤭",
+        	"format-alt": "{ifname}: {ipaddr}/{cidr}",
+          "tooltip-format": "{essid}",
+          "on-click-right": "nm-connection-editor"
+	}
+}

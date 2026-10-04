@@ -1,0 +1,4 @@
+#!/bin/sh
+
+month=$(date +%-m)
+echo $((month - 1))

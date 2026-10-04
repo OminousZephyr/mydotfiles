@@ -1,0 +1,32 @@
+# Appearance
+font=JetBrainsMono Nerd Font 14
+
+background-color=#191724
+text-color=#c9c5dc
+border-color=#d85f7a
+progress-color=over #31748f
+
+border-size=2
+border-radius=12
+
+padding=12
+margin=12
+
+width=300
+height=120
+
+anchor=top-right
+
+icons=1
+markup=1
+actions=1
+
+default-timeout=5000
+ignore-timeout=0
+
+format=<b>%s</b>\n%b
+
+max-visible=5
+sort=-time
+
+layer=overlay

@@ -1,0 +1,231 @@
+@import "meow.css";
+* {
+  border: none;
+  border-radius: 0px;
+  font-size: 19px;
+  margin: 0;
+  padding: 0;
+  min-height: 40px;
+}
+
+window#waybar {
+  font-family: "JetBrainsMono Nerd Font", "Rubik", "Font Awesome 6 Free", "Symbols Nerd Font Mono", sans-serif;
+  background: transparent;
+}
+
+
+#window {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+tooltip {
+  background: @bg1;
+  border-radius: 12px;
+}
+
+tooltip label {
+  color: @white;
+  padding: 6px 8px;
+}
+
+
+.modules-left{
+  font-family: "ButterflyHeaven", "sans-serif", "Rubik";
+  background: @bg2;
+  border-radius: 50px;
+}
+
+.modules-right{
+  background: @bg2;
+  border-radius: 50px;
+  padding: 0 10 0 10;
+}
+
+.modules-center{
+  background: @bg1;
+  border-radius: 50px;
+  padding: 0 5 0 5;
+}
+
+#workspaces{
+  background: transparent;
+  margin: 0px;
+  padding: 0px 8px 0px 8px;
+  border: none;
+  box-shadow: none;
+}
+#workspaces button {
+  font-family: "JetBrainsMono Nerd Font", "Rubik", "Font Awesome 6 Free", "Symbols Nerd Font Mono", sans-serif;
+  font-size: 18px;
+  padding: 0px 3px;
+  margin: 0px 1px;
+  border-radius: 28px;
+  background: transparent;
+  color: @peach;
+
+  min-width: 28px;
+
+  text-shadow:
+  0 0 1px @peach-glow;
+
+  transition:
+    color 220ms ease-in-out,
+    text-shadow 220ms ease-in-out,
+    padding 220ms ease-in-out,
+    min-width 220ms ease-in-out;
+}
+
+#workspaces button.active {
+  color: @blue;
+  padding: 0px 4px;
+  min-width: 40px;
+
+  text-shadow:
+    0 0 4px @blue-1,
+    0 0 10px @blue-2,
+    0 0 18px @blue-3;
+}
+
+#battery {
+  padding: 0 15 0 10;
+  color: @orange;
+  text-shadow:
+  0 0 1px @orange,
+  0 0 1 @orange;
+}
+
+#battery.charging {
+  color: @orange;
+    text-shadow:
+    0 0 4px @orange,
+    0 0 18px @orange-3;
+}
+
+#clock{
+  padding: 0 15 0 15;
+  color: @blue;
+  text-shadow:
+    0 0 1px @blue;
+}
+
+#cpu {
+    color: @gold;
+      text-shadow:
+    0 0 1px @gold;
+    padding: 0px 12px 0px 12px;
+}
+
+#memory {
+    color: @purple;
+      text-shadow:
+    0 0 1px @purple;
+    padding: 0px 15px 0px 12px;
+}
+
+  
+#network{
+  color: @peach;
+    text-shadow:
+    0 0 1px @peach;
+   margin: 0 20 0 15;
+  }
+
+#pulseaudio{
+  color: @lime;
+  text-shadow:
+  0 0 1px @lime;
+  margin: 0 10 0 10;
+}
+
+#mpd {
+    font-family: "Iosevka", "JetBrainsMono Nerd Font", "CascaydiaCove Nerd Font", "Iosevka Nerd Font" ;
+    font-weight: 500;
+    font-size: 20px;
+    background: linear-gradient(
+        135deg,
+        rgba(122, 49, 88, 0.6),
+        rgba(22, 73, 54, 0.6)
+    );
+
+    color: #fff;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom : @rose;
+    transition: all 0.3s ease;
+}
+
+#mpd.paused {
+    color: #ef51a2;
+    text-shadow:
+    0 0 1px @rosewater;
+}
+
+#mpd.playing {
+    animation: rose-text 8s ease-in-out infinite;
+}
+
+#mpd.disconnected {
+    color: #FF0055;            /* Crimson red when disconnected */
+}
+
+@keyframes rose-text {
+    0% {
+        color: #eb6f92; /* Love */
+        text-shadow:
+            0 0 6px #eb6f92,
+            0 0 12px rgba(235, 111, 146, 0.6);
+    }
+
+    14% {
+        color: #f6c177; /* Gold */
+        text-shadow:
+            0 0 6px #f6c177,
+            0 0 12px rgba(246, 193, 119, 0.6);
+    }
+
+    28% {
+        color: #ebbcba; /* Rose */
+        text-shadow:
+            0 0 6px #ebbcba,
+            0 0 12px rgba(235, 188, 186, 0.6);
+    }
+
+    42% {
+        color: #9ccfd8; /* Foam */
+        text-shadow:
+            0 0 6px #9ccfd8,
+            0 0 12px rgba(156, 207, 216, 0.6);
+    }
+
+    56% {
+        color: #31748f; /* Pine */
+        text-shadow:
+            0 0 6px #31748f,
+            0 0 12px rgba(49, 116, 143, 0.6);
+    }
+
+    70% {
+        color: #c4a7e7; /* Iris */
+        text-shadow:
+            0 0 6px #c4a7e7,
+            0 0 12px rgba(196, 167, 231, 0.6);
+    }
+
+    84% {
+        color: #908caa; /* Muted */
+        text-shadow:
+            0 0 6px #908caa,
+            0 0 12px rgba(144, 140, 170, 0.6);
+    }
+
+    100% {
+        color: #eb6f92;
+        text-shadow:
+            0 0 6px #eb6f92,
+            0 0 12px rgba(235, 111, 146, 0.6);
+    }
+}
